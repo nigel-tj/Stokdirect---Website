@@ -449,6 +449,7 @@
           data: formData,
           success: function (data) {
             // handle the response from the PHP script, such as displaying a success message
+            console.log(data)
             $("#response").html(data);
           },
           done: function (data) {
