@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/uywoumvf/public_html
-    - /bin/cp * $DEPLOYPATH
+    - /bin/cp -r /home/uywoumvf/repositories/Stokdirect---Website/* $DEPLOYPATH
