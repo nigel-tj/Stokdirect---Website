@@ -301,6 +301,10 @@ summary {
   display: list-item;
 }
 
+.ul-faq{
+  list-style: decimal;
+}
+
 /*
 Removes the default spacing and border for appropriate elements.
 */
