@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>STOK DIRECT</title>
+  <link rel="stylesheet" href="output-styles.css" />
+  <link rel="stylesheet" href="dropdown-styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<nav class="bg-[#3768b100] z-40 absolute left-0 right-0 top-0">
+  <div class="w-full px-2 sm:px-4 lg:px-8">
+    <div class="flex h-16 justify-between">
+      <div class="flex items-center px-2 lg:px-0">
+        <button type="button" onclick="openNav()"
+          class="inline-flex dropbtn lg:hidden items-center justify-center rounded-md p-2 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white mr-3 -ml-3"
+          aria-controls="myDropdown" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+
+          <img src="../assets/img/menu-white.png" alt="" />
+        </button>
+
+        <div class="hidden lg:ml-4 lg:flex lg:items-center">
+          <img src="../assets/img/stok-logo.svg" class="h-16" alt="" />
+        </div>
+        <!-- Sidebar Navigation -->
+        <div id="mySidenav" class="sidenav z-40 flex flex-col">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a href="#" class="flex items-center">
+
+            <span>Home</span>
+          </a>
+          <a href="#" class="flex items-center">
+
+            <span>About Us</span>
+          </a>
+          <a href="#" class="flex items-center">
+
+            <span>Services</span>
+          </a>
+          <a href="#" class="flex items-center">
+
+            <span>FAQs</span>
+          </a>
+          <a href="#" class="flex items-center">
+
+            <span>Contact</span>
+          </a>
+          <a href="#" class="flex items-center">
+
+            <span>Register</span>
+          </a>
+
+
+        </div>
+      </div>
+      <div class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
+        <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
+          <a class="text-white hover:text-gray-200" href="#home">Home</a>
+          <a class="text-white hover:text-gray-200" href="#about">About Us</a>
+          <a class="text-white hover:text-gray-200" href="#servics">Services</a>
+          <a class="text-white hover:text-gray-200" href="#faq">FAQs</a>
+          <a class="text-white hover:text-gray-200" href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="hidden lg:ml-4 lg:flex lg:items-center">
+        <a class="bg-[#E2BF17] rounded-md text-bold px-4 py-2" href="#">Register</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu, show/hide based on menu state. -->
+</nav>
+
+<body>
+  <div>
+    <main>
+      <div>
+        <!-- Hero card -->
+        <div class="relative">
+          <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+          <div class="mx-auto w-full">
+            <div class="relative shadow-xl sm:overflow-hidden">
+              <div class="absolute inset-0">
+                <img class="h-full w-full object-cover" src="../assets/img/heroImg.png"
+                  alt="People working on laptops" />
+                <div class="absolute inset-0 bg-blue-500 mix-blend-multiply"></div>
+              </div>
+              <div id="home" class="flex flex-col lg:flex-row justify-between items-center px-8 md:px-15 lg:px-32">
+                <div class="relative py-16 sm:py-32 lg:pt-52 lg:py-52">
+                  <h1 class="text-left text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+                    <span class="block text-white">STOK DIRECT</span>
+                  </h1>
+                  <p class="mt-6 max-w-lg text-left text-xl text-white sm:max-w-xl">
+                    Stokdirect Virtual Wholesale is a stock forwarding
+                    platform for FMCG (fast-moving consumer goods)
+                    manufacturers. We are an intermediary between
+                    manufacturers and our members who purchase goods for their
+                    needs and use.
+                  </p>
+                </div>
+                <div class="bg-[#D9D9D9] mb-10 mt-10 z-30 h-fit rounded-2xl p-5">
+                  <h2 class="text-[#122B60] my-3 text-xl font-bold">
+                    REQUEST A CALLBACK
+                  </h2>
+                  <form action="">
+                    <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 justify-between">
+                      <input type="text" class="p-2 rounded-md" placeholder="First Name" />
+                      <input type="text" class="p-2 rounded-md" placeholder="Last Name" />
+                    </div>
+                    <div class="mt-4 w-full">
+                      <input type="text" placeholder="Email Address" name="" id="" class="p-2 w-full rounded-md" />
+                    </div>
+
+                    <div class="mt-4">
+                      <input type="number" placeholder="Phone Number" name="" id="" class="p-2 w-full rounded-md" />
+                    </div>
+                    <div class="flex">
+                      <button
+                        class="py-2 px-4 rounded-md text-black font-medium mx-auto mt-4 bg-[#E2BF17]">Submit</button>
+                    </div>
+                </div>
+                </form>
+              </div>
+            </div>
+            <div class="z-40 w-full">
+              <h1
+                class="text-xs lg:text-3xl text-white absolute top-[47%] lg:top-auto lg:bottom-10 text-center left-0 right-0">
+                Become a Buyer | Become a Driver | Become a Manufacturer
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Logo cloud -->
+      <div id="about" class="bg-[#E2BF17]">
+        <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
+          <h2 class="text-xl text-center my-3 font-semibold">What We Do</h2>
+          <h1 class="font-black my-5 text-center lg:text-5xl text-2xl">Our Services</h1>
+          <p class="text-center lg:w-1/2 m-auto">We drive traffic for manufacturers through our database of banner
+            stores,
+            bulk buying groups,
+            individual and group members who in turn drive
+            traffic for our manufacturer products.
+
+
+          </p>
+          <div class="w-full flex justify-center mt-10">
+
+            <a class="px-4 mx-auto bg-[#122B60] hover:bg-[#18377a] text-white py-2 rounded-md" href="#">Register</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+  <div
+    class="bg-[#132a60] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
+    <div class="w-full">
+      <h2 class="text-[#E2BF17] text-xl font-semibold mt-5">PROCESS</h2>
+      <h1 class="font-black text-2xl lg:text-4xl text-white my-2">HOW WE DO IT</h1>
+      <p class="mt-5 text-white">
+        Through our software, our unique logistical approach
+        and multi warehousing manufacturer partnerships, we
+        are able to guarantee efficient product delivery whilst
+        securing reliable data for limitless growth potential.
+      </p>
+    </div>
+    <div class="w-full">
+      <img src="../assets/img/ipad.png" alt="">
+    </div>
+  </div>
+  <div id="services"
+    class="bg-[#E2BF17]  lg:pb-0 px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
+    <div class="w-full">
+      <img src="../assets/img/box.png" class="hidden lg:block" alt="">
+    </div>
+    <div class="w-full">
+      <h2 class="text-[#132a60] text-xl font-semibold mt-5">What We Do</h2>
+      <h1 class="font-black text-2xl lg:text-4xl text-[#132a60] my-2">Why Work With Us</h1>
+      <div class="flex items-center space-x-2">
+        <p class="bg-[#132a60] p-1 w-10 h-10 text-white flex items-center justify-center rounded-full">1</p>
+        <p class="text-[#132a60] w-10/12">You keep track of every step in real time. Our
+          digital Interface offers real-time ordering and
+          delivery information
+        </p>
+      </div>
+      <div class="flex items-center mt-5 space-x-2">
+        <p class="bg-[#132a60] p-1 w-10 h-10 text-white flex items-center justify-center rounded-full">2</p>
+        <p class="text-[#132a60] w-10/12">No middle-man - Goods purchased straight
+          from the manufacturer at manufacturer pricing
+
+        </p>
+      </div>
+      <div class="flex items-center mt-5 space-x-2">
+        <p class="bg-[#132a60] p-1 w-10 h-10 text-white flex items-center justify-center rounded-full">3</p>
+        <p class="text-[#132a60] w-10/12">You know exactly who is buying your products.
+          Data Analytics and Market Analysis done for you
+          with our intelligent software
+
+        </p>
+      </div>
+    </div>
+    <div class="w-full lg:hidden">
+      <img src="../assets/img/box.png" class=" " alt="">
+    </div>
+  </div>
+  <div id="contact" class="bg-[#122B60] px-8 md:px-15 lg:px-32 py-20">
+    <h1 class="text-[#E2BF17] text-2xl text-center">GET IN TOUCH</h1>
+    <h1 class="font-bold text-2xl lg:text-4xl text-white mt-5 mb-20 text-center">CONTACT US</h1>
+    <div
+      class="max-w-3xl mx-auto flex flex-col justify-center items-center lg:flex-row space-y-6 lg:space-y-0 lg:space-x-8">
+      <div class="px-5 lg:border-r-2 lg:border-[#E2BF17]"> <img src="../assets/img/support.svg" class="mx-auto" alt="">
+        <h1 class="text-2xl text-center text-white font-semibold">Support</h1>
+        <p class="text-white text-center">support@stokdirect.co.za/com
+          Whatsapp / Messenger
+        </p>
+      </div>
+      <div class="px-5 lg:border-r-2 lg:border-[#E2BF17]">
+        <img src="../assets/img/email.png" class="mx-auto" alt="">
+        <h1 class="text-2xl text-center text-white font-semibold">Sales</h1>
+        <p class="text-white text-center">support@stokdirect.co.za/com
+          Whatsapp / Messenger
+        </p>
+
+      </div>
+      <div class="">
+        <img src="../assets/img/marketing.png" class="mx-auto" alt="">
+        <h1 class="text-2xl text-center text-white font-semibold">Marketing</h1>
+        <p class="text-white text-center">email: marketing@stokdirect.co.za/com
+        </p>
+      </div>
+
+    </div>
+  </div>
+
+  <div id="faq" class="flex flex-col lg:flex-row bg-[#E2BF17] py-10 px-8 md:px-15 lg:px-32">
+    <div>
+      <h2 class="text-[#132a60] text-xl font-semibold mt-5">Commonly Asked</h2>
+      <h1 class="font-black text-2xl lg:text-6xl text-[#132a60] my-2">Frequently Asked</h1>
+    </div>
+    <div>
+      <div class="faq">
+
+        <button class="faq__question">I want to do my shopping and transact on Stok-Direct at the same
+          time, where can i do this?</button>
+        <div class="faq__panel">
+          <p class="faq__answer ml-5 text-[#132a60] ease-in duration-300">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam deserunt dolore quas eligendi totam,
+            similique aspernatur vero atque, debitis libero inventore voluptate voluptatem modi minima consequuntur
+            harum. Asperiores, voluptas molestiae.
+          </p>
+        </div>
+        <button class="faq__question">
+          How long does it take to receive my package on Stok-Direct?
+        </button>
+        <div class="faq__panel">
+          <p class="faq__answer ml-5 text-[#132a60]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+            recusandae vel nobis, exercitationem aspernatur autem vero ad soluta
+            eius ipsam praesentium aliquam!
+          </p>
+        </div>
+        <button class="faq__question">What are the transaction fees on Stok-Direct?</button>
+        <div class="faq__panel">
+          <p class="faq__answer ml-5 text-[#132a60]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            sint, hic consequuntur consectetur, corporis enim ipsum quasi
+            recusandae vel nobis, exercitationem aspernatur autem vero ad soluta
+            eius ipsam praesentium aliquam!
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- More main page content here... -->
+  </main>
+  </div>
+  <footer class="bg-[#122B60]" aria-labelledby="footer-heading">
+    <h2 id="footer-heading" class="sr-only">Footer</h2>
+    <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+        <img class="h-20" src="../assets/img/stok-logo.svg" alt="Company name">
+        <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-white">Product</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Home</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Services</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">How It Works</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Get In Touch</a>
+                </li>
+              </ul>
+            </div>
+            <div class="mt-10 md:mt-0">
+              <h3 class="text-sm font-semibold leading-6 text-white">Use Cases</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Warehouses</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Manufactures</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Retailers</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Consumers</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="md:grid md:grid-cols-2 md:gap-8">
+            <div>
+              <h3 class="text-sm font-semibold leading-6 text-white">Resources</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Refund Policy</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Buyer Protection</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Registration</a>
+                </li>
+
+
+              </ul>
+            </div>
+            <div class="mt-10 md:mt-0">
+              <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
+              <ul role="list" class="mt-6 space-y-4">
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 ">About Us</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Careers</a>
+                </li>
+
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Teams</a>
+                </li>
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <script>
+    let questions = document.querySelectorAll(".faq__question");
+    questions.forEach((question) => {
+      question.addEventListener("click", function () {
+        question.classList.toggle("faq__question_active");
+        const nextElement = question.nextElementSibling;
+        nextElement.classList.toggle("faq__panel_active");
+      });
+    });
+    function showMenu() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
+        }
+      }
+    };
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "350px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+  </script>
+</body>
+
+</html>
