@@ -1778,3 +1778,10 @@ video {
     gap: 2rem;
   }
 }
+#thank-you-message {
+  display: none;
+}
+
+#thank-you-message.show {
+  display: block;
+}
