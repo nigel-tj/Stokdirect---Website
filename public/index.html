@@ -64,7 +64,7 @@
         <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
           <a class="text-white hover:text-gray-200" href="#home">Home</a>
           <a class="text-white hover:text-gray-200" href="#about">About Us</a>
-          <a class="text-white hover:text-gray-200" href="#servics">Services</a>
+          <a class="text-white hover:text-gray-200" href="#services">Services</a>
           <a class="text-white hover:text-gray-200" href="#faq">FAQs</a>
           <a class="text-white hover:text-gray-200" href="#contact">Contact</a>
         </div>
@@ -243,39 +243,44 @@
 
   <div id="faq" class="flex flex-col lg:flex-row bg-[#E2BF17] py-10 px-8 md:px-15 lg:px-32">
     <div>
-      <h2 class="text-[#132a60] text-xl font-semibold mt-5">Commonly Asked</h2>
+      <h2 class="text-[#132a60] text-xl font-semibold mt-5">Got Questions?</h2>
       <h1 class="font-black text-2xl lg:text-6xl text-[#132a60] my-2">Frequently Asked</h1>
     </div>
     <div>
       <div class="faq">
 
-        <button class="faq__question">I want to do my shopping and transact on Stok-Direct at the same
-          time, where can i do this?</button>
+        <button class="faq__question">How Do I get Started as a member / buyer </button>
         <div class="faq__panel">
           <p class="faq__answer ml-5 text-[#132a60] ease-in duration-300">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam deserunt dolore quas eligendi totam,
-            similique aspernatur vero atque, debitis libero inventore voluptate voluptatem modi minima consequuntur
-            harum. Asperiores, voluptas molestiae.
+            Go to <a href="//www.stokdirect.africa">www.stokdirect.africa</a>
           </p>
+          <ol>
+            <li>Register for an account and complete your profile </li>
+            <li>Select your products</li>
+            <li>Make payment including delivery</li>
+            <li>Follow your driver & Receive your goods</li>
+            <li>Rate your driver</li>
+          </ol>
         </div>
         <button class="faq__question">
-          How long does it take to receive my package on Stok-Direct?
+          When will I receive my order?
         </button>
         <div class="faq__panel">
           <p class="faq__answer ml-5 text-[#132a60]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            sint, hic consequuntur consectetur, corporis enim ipsum quasi
-            recusandae vel nobis, exercitationem aspernatur autem vero ad soluta
-            eius ipsam praesentium aliquam!
+            Delivery Timeframes take into consideration the following factors<br>
+            : Depot access, Order loading & delivery timeframes <br>
+            Our system will give you a clear view of where in this process your order is as you will be able to track
+            your order right up until it is delivered to you!
           </p>
         </div>
-        <button class="faq__question">What are the transaction fees on Stok-Direct?</button>
+        <button class="faq__question">How Do I Search For Products As a Member?</button>
         <div class="faq__panel">
           <p class="faq__answer ml-5 text-[#132a60]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
-            sint, hic consequuntur consectetur, corporis enim ipsum quasi
-            recusandae vel nobis, exercitationem aspernatur autem vero ad soluta
-            eius ipsam praesentium aliquam!
+            <ul>
+              <li>View All available items</li>
+              <li>Search by brand</li>
+              <li>Search by category</li>
+            </ul>
           </p>
         </div>
 
@@ -398,6 +403,7 @@
         nextElement.classList.toggle("faq__panel_active");
       });
     });
+
     function showMenu() {
       document.getElementById("myDropdown").classList.toggle("show");
     }
@@ -415,6 +421,7 @@
         }
       }
     };
+
     function openNav() {
       document.getElementById("mySidenav").style.width = "350px";
     }
