@@ -112,19 +112,17 @@
                   <h2 class="text-[#122B60] my-3 text-xl font-bold">
                     REQUEST A CALLBACK
                   </h2>
-                  <p id="thank-you-message">
-                    Thank you for contacting us. We will be in touch with you very soon.
-                  </p>
                   <form id="callBackRequest" action="" method="POST">
-                    <div class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 justify-between">
+                    <div id="name-group"
+                      class="flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4 justify-between">
                       <input type="text" class="p-2 rounded-md" placeholder="First Name" name="first_name" />
                       <input type="text" class="p-2 rounded-md" placeholder="Last Name" name="last_name" />
                     </div>
-                    <div class="mt-4 w-full">
+                    <div id="email-group" class="mt-4 w-full">
                       <input type="text" placeholder="Email Address" name="email" id="" class="p-2 w-full rounded-md" />
                     </div>
 
-                    <div class="mt-4">
+                    <div id="" class="mt-4">
                       <input type="number" placeholder="Phone Number" name="phone" id=""
                         class="p-2 w-full rounded-md" />
                     </div>
@@ -450,7 +448,34 @@
           success: function (data) {
             // handle the response from the PHP script, such as displaying a success message
             console.log(data)
-            $("#response").html(data);
+            if (!data.success) {
+              if (data.errors.name) {
+                $("#name-group").addClass("has-error");
+                $("#name-group").append(
+                  '<div class="help-block">' + data.errors.name + "</div>"
+                );
+              }
+
+              if (data.errors.email) {
+                $("#email-group").addClass("has-error");
+                $("#email-group").append(
+                  '<div class="help-block">' + data.errors.email + "</div>"
+                );
+              }
+
+              if (data.errors.email) {
+                $("#phone-group").addClass("has-error");
+                $("#phone-group").append(
+                  '<div class="help-block">' + data.errors.phone + "</div>"
+                );
+              }
+
+            } else {
+              $("#callBackRequest").html(
+                '<div class="alert alert-success">' + data.message + "</div>"
+              );
+            }
+
           },
           done: function (data) {
             console.log(data)
