@@ -14,6 +14,8 @@ if (empty($_POST['last_name'])) {
 
 if (empty($_POST['email'])) {
     $errors['email'] = 'Email is required.';
+} else if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+    $errors[] = 'Email is invalid';
 }
 
 if (empty($_POST['phone'])) {
