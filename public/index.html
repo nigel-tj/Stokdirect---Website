@@ -445,9 +445,10 @@
           type: "POST",
           url: "/public/mail.php",
           data: formData,
+
           success: function (data) {
             // handle the response from the PHP script, such as displaying a success message
-            console.log(data)
+            console.log("In success: ", data)
             if (!data.success) {
               if (data.errors.name) {
                 $("#name-group").addClass("has-error");
@@ -478,7 +479,7 @@
 
           },
           done: function (data) {
-            console.log(data)
+            console.log("In done:", data)
           }
         });
       });

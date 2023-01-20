@@ -3,9 +3,14 @@
 $errors = [];
 $data = [];
 
-if (empty($_POST['name'])) {
-    $errors['name'] = 'Name is required.';
+if (empty($_POST['first_name'])) {
+    $errors['name1'] = 'First Name is required.';
 }
+
+if (empty($_POST['last_name'])) {
+    $errors['name2'] = 'Last Name is required.';
+}
+
 
 if (empty($_POST['email'])) {
     $errors['email'] = 'Email is required.';
@@ -19,7 +24,7 @@ if (empty($_POST['phone'])) {
 if (isset($_POST['phone'])) {
     $to = "contact@stokdirect.africa"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
-    $name = $_POST['name'];
+    $name = $_POST['first_name'];
     $subject = "Callback Request";
     $subject2 = "Copy of your form submission";
     $message = $name . " wrote the following, please call on: " . "\n\n" . $_POST['phone'];
