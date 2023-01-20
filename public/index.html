@@ -449,31 +449,32 @@
           success: function (data) {
             // handle the response from the PHP script, such as displaying a success message
             console.log("In success: ", data)
-            if (!data.success) {
-              if (data.errors.name) {
+            var dataJSON = JSON.parse(data);
+            if (!dataJSON.success) {
+              if (dataJSON.errors.name) {
                 $("#name-group").addClass("has-error");
                 $("#name-group").append(
-                  '<div class="help-block">' + data.errors.name + "</div>"
+                  '<div class="help-block">' + dataJSON.errors.name + "</div>"
                 );
               }
 
-              if (data.errors.email) {
+              if (dataJSON.errors.email) {
                 $("#email-group").addClass("has-error");
                 $("#email-group").append(
-                  '<div class="help-block">' + data.errors.email + "</div>"
+                  '<div class="help-block">' + dataJSON.errors.email + "</div>"
                 );
               }
 
-              if (data.errors.email) {
+              if (dataJSON.errors.email) {
                 $("#phone-group").addClass("has-error");
                 $("#phone-group").append(
-                  '<div class="help-block">' + data.errors.phone + "</div>"
+                  '<div class="help-block">' + dataJSON.errors.phone + "</div>"
                 );
               }
 
             } else {
               $("#callBackRequest").html(
-                '<div class="alert alert-success">' + data.message + "</div>"
+                '<div class="alert alert-success">' + dataJSON.message + "</div>"
               );
             }
 
