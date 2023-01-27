@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>About Us | STOK DIRECT</title>
-  <link rel="stylesheet" href="/dist/output.css" />
+  <link rel="stylesheet" href="/public/output-styles.css" />
   <link rel="stylesheet" href="/public/dropdown-styles.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
@@ -14,12 +14,13 @@
   <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
   <script src="/public/components/nav.js" type="text/javascript" defer></script>
   <script src="/public/components/footer.js" type="text/javascript" defer></script>
 </head>
 
 <body>
-  
+
   <main>
     <nav-component></nav-component>
     <div>
@@ -72,7 +73,7 @@
 
       <div class="w-full">
         <h1 class="font-black text-2xl lg:text-4xl text-black my-2">Core Values</h1>
-        
+
         <ul class="text-gray-700 py-4">
           <li>Transparency</li>
           <li>Integrity</li>
@@ -87,8 +88,83 @@
       </div>
 
     </div>
+    <!-- team section-->
+    <div
+      class="bg-[#132a60] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
+      <div class="w-full">
+        <h2 class="text-[#E2BF17] text-xl font-semibold mt-14">THE TEAM</h2>
+        <h1 class="font-black text-2xl lg:text-4xl text-white my-2">Meet Our Team</h1>
 
-    
+        <div class="grid grid-cols-1 gap-8 mt-8 mb-10 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              The Maverick
+            </h1>
+            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A leader, an explorer and a global citizen.
+            </p>
+          </div>
+
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              Gen X
+            </h1>
+            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A resourceful operator</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              The Professional
+            </h1>
+            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">An expert in supply chain, logistics warehousing</p>
+          </div>
+
+          <div
+            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
+              src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
+              alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              The Dev
+            </h1>
+            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A forward thinking software developer</p>
+          </div>
+
+        
+        </div>
+        
+      </div>
+    </div>
+
+    <div class="bg-[#E2BF17]">
+      <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
+        <h2 class="text-xl text-center my-3 font-semibold">Join the Team</h2>
+        <h1 class="font-black my-5 text-center lg:text-5xl text-2xl">Careers</h1>
+        <p class="text-center lg:w-1/2 m-auto">
+          We are always on the lookout for talented, innovative individuals with something to offer to our ever growing
+          organization.
+        </p>
+        <p class="text-center lg:w-1/2 m-auto mt-5">
+          If you think you have what it takes, send us your cv to careers@stokdirect.africa
+        </p>
+        <p class="text-center lg:w-1/2 m-auto mt-5">
+          Whether you are in Customer Service & Support, Logistics and Warehousing, Design & Software, Graphics, Sales
+          and Marketing, Stokdirect Virtual Warehouse is a career growth potential.
+        </p>
+      </div>
+    </div>
 
   </main>
 
