@@ -61,15 +61,27 @@ class Footer extends HTMLElement {
               <h3 class="text-sm font-semibold leading-6 text-white">Resources</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
+                  <a href="/public/terms-and-conditions.html" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
                 </li>
 
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Refund Policy</a>
                 </li>
+                
+                <li>
+                  <a href="/pubic/privacy-policy.html" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy Policy</a>
+                </li>
+                
+                <li>
+                  <a href="/public/user-policy.html" class="text-sm leading-6 text-gray-300 hover:text-white">User Policy</a>
+                </li>
+                
+                <li>
+                  <a href="/public/cookie-policy.html" class="text-sm leading-6 text-gray-300 hover:text-white">Cookie Policy</a>
+                </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Buyer Protection</a>
+                  <a href="/public/buyer-protection.html" class="text-sm leading-6 text-gray-300 hover:text-white">Buyer Protection</a>
                 </li>
 
                 <li>
