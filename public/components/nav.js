@@ -57,7 +57,7 @@ class NavBar extends HTMLElement {
           <a class="text-white hover:text-gray-200" href="/public/about.html">About Us</a>
           <a class="text-white hover:text-gray-200" href="#services">Services</a>
           <a class="text-white hover:text-gray-200" href="/public/faqs.html">FAQs</a>
-          <a class="text-white hover:text-gray-200" href="#contact">Contact</a>
+          <a class="text-white hover:text-gray-200" href="/public/contact.html">Contact</a>
         </div>
       </div>
 
