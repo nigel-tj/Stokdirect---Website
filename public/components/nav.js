@@ -55,7 +55,7 @@ class NavBar extends HTMLElement {
         <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
           <a class="text-white hover:text-gray-200" href="/public/">Home</a>
           <a class="text-white hover:text-gray-200" href="/public/about.html">About Us</a>
-          <a class="text-white hover:text-gray-200" href="#services">Services</a>
+          <a class="text-white hover:text-gray-200" href="/public/services.html">Services</a>
           <a class="text-white hover:text-gray-200" href="/public/faqs.html">FAQs</a>
           <a class="text-white hover:text-gray-200" href="/public/contact.html">Contact</a>
         </div>
