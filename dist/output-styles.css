@@ -783,6 +783,10 @@ video {
   width: 1.5rem;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
 .max-w-7xl {
   max-width: 80rem;
 }
@@ -1491,6 +1495,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:w-full {
+    width: 100%;
+  }
+
   .sm\:max-w-xl {
     max-width: 36rem;
   }
