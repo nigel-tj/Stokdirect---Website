@@ -23,23 +23,23 @@ class NavBar extends HTMLElement {
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#" class="flex items-center">
+          <a href="/public/" class="flex items-center">
 
             <span>Home</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="/public/about.html" class="flex items-center">
 
             <span>About Us</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="/public/services.html" class="flex items-center">
 
             <span>Services</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="/public/faqs.html" class="flex items-center">
 
             <span>FAQs</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="/public/contact.html" class="flex items-center">
 
             <span>Contact</span>
           </a>
