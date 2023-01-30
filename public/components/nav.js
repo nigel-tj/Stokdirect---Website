@@ -23,7 +23,7 @@ class NavBar extends HTMLElement {
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="/public/" class="flex items-center">
+          <a href="/" class="flex items-center">
 
             <span>Home</span>
           </a>
@@ -53,7 +53,7 @@ class NavBar extends HTMLElement {
       </div>
       <div class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
         <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
-          <a class="text-white hover:text-gray-200" href="/public/">Home</a>
+          <a class="text-white hover:text-gray-200" href="/">Home</a>
           <a class="text-white hover:text-gray-200" href="/public/about.html">About Us</a>
           <a class="text-white hover:text-gray-200" href="/public/services.html">Services</a>
           <a class="text-white hover:text-gray-200" href="/public/faqs.html">FAQs</a>
