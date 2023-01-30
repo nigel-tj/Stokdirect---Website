@@ -18,11 +18,6 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Home</a>
                 </li>
-
-                <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">About Us</a>
-                </li>
-
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Services</a>
                 </li>
@@ -36,7 +31,7 @@ class Footer extends HTMLElement {
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Use Cases</h3>
+              <h3 class="text-sm font-semibold leading-6 text-white">Our Partners</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Warehouses</a>
@@ -51,7 +46,7 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Consumers</a>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Drivers</a>
                 </li>
               </ul>
             </div>
@@ -97,7 +92,9 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 ">About Us</a>
                 </li>
-
+                <li>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Teams</a>
+                </li>
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Careers</a>
                 </li>
@@ -105,9 +102,7 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
                 </li>
-                <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Teams</a>
-                </li>
+
                 <li>
                   <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
                 </li>
