@@ -31,10 +31,10 @@ if (isset($_POST['phone'])) {
     $to = "contact@stokdirect.africa"; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['first_name'];
-    $subject = "Callback Request";
+    $subject = "Registration Request";
     $subject2 = "Copy of your form submission";
-    $message = $name . " wrote the following, please call on: " . "\n\n" . $_POST['phone'];
-    $message2 = "Here is a copy of your message, please call  " . $name . "\n\n " . $_POST['phone'];
+    $message = $name . " wrote the following, " . "\n\n" . $_POST['phone'];
+    $message2 = "Here is a copy of your message,  " . $name . "\n\n " . $_POST['phone'] . $_POST['registration_type'] .;
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
