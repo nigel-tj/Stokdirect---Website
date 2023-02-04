@@ -2375,10 +2375,6 @@ textarea.form-control.is-invalid {
   margin-bottom: 5rem;
 }
 
-.ml-5 {
-  margin-left: 1.25rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -2596,6 +2592,10 @@ textarea.form-control.is-invalid {
 
 .items-center {
   align-items: center;
+}
+
+.justify-start {
+  justify-content: flex-start;
 }
 
 .justify-end {
@@ -3205,10 +3205,6 @@ textarea.form-control.is-invalid {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.ease-in {
-  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .ease-linear {

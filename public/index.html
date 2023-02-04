@@ -218,45 +218,61 @@
       <h1 class="font-black text-2xl lg:text-6xl text-[#132a60] my-2">Frequently Asked</h1>
     </div>
     <div>
-      <div class="faq">
-        <button class="faq__question">How Do I get Started as a member / buyer </button>
-        <div class="faq__panel">
-          <p class="faq__answer ml-5 text-[#132a60] ease-in duration-300">
-            Go to <a href="//www.stokdirect.africa">www.stokdirect.africa</a>
-          </p>
-          <ol class="ul-faq ml-6">
-            <li>Register for an account and complete your profile </li>
-            <li>Select your products</li>
-            <li>Make payment including delivery</li>
-            <li>Follow your driver & Receive your goods</li>
-            <li>Rate your driver</li>
-          </ol>
-        </div>
-        <button class="faq__question">
-          When will I receive my order?
-        </button>
-        <div class="faq__panel">
-          <p class="faq__answer ml-5 text-[#132a60]">
-            Delivery Timeframes take into consideration the following factors<br>
-            : Depot access, Order loading & delivery timeframes <br>
-            Our system will give you a clear view of where in this process your order is as you will be able to track
-            your order right up until it is delivered to you!
-          </p>
-        </div>
-        <button class="faq__question">How Do I Search For Products As a Member?</button>
-        <div class="faq__panel">
-          <p class="faq__answer ml-5 text-[#132a60]">
-            <ul class="ml-5">
-              <li>View All available items</li>
-              <li>Search by brand</li>
-              <li>Search by category</li>
-            </ul>
-          </p>
-        </div>
-        <div>
+      <div id="faq-content" class="faq bg-[#E2BF17] flex flex-wrap lg:flex-row">
+        <dl class="mx-auto max-w-screen-sm lg:max-w-screen-lg flex flex-col lg:flex-wrap w-full">
+          <!-- start FAQ Question -->
+          <div class="lg:w-full">
+            <div
+              class="question-and-answer select-none cursor-pointer border-2 mx-8 my-3 px-6 py-4 rounded-lg text-sm group">
+              <dt class="question">
+                <div class="flex justify-between">
+                  <div class="font-semibold">
+                    How Do I Search For Products As a Member?
+                  </div>
+                  <div>
+                    <svg fill=currentColor
+                      class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg fill=currentColor
+                      class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </dt>
+              <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                <ul>
+                  <li>View All available items</li>
+                  <li>Search by Manufacturer</li>
+                  <li>Search by brand</li>
+                  <li>Search by category</li>
+                  <li>Search by location</li>
+                </ul>
+              </dd>
+            </div>
+          </div>
+          <!-- end FAQ Question -->
+        </dl>
 
-        </div>
       </div>
+
       <div class="w-full flex justify-center mt-10">
         <a class="px-4 mx-auto bg-[#122B60] hover:bg-[#18377a] text-white py-2 rounded-md" href="/public/faqs.html">More
           FAQs</a>
@@ -544,6 +560,13 @@
       });
     });
   </script>
+
+<script>
+  $('.question-and-answer').click(function () {
+    $(this).find(".answer").toggleClass("hidden")
+    $(this).find(".question-chevron").toggleClass("hidden")
+  })
+</script>
 
   <script type="module" src="https://cookieconsent.popupsmart.com/js/CookieConsent.js"></script>
   <script type="text/javascript" src="https://cookieconsent.popupsmart.com/js/App.js"></script>
