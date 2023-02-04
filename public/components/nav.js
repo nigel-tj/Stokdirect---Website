@@ -62,7 +62,7 @@ class NavBar extends HTMLElement {
       </div>
 
       <div class="hidden lg:ml-4 lg:flex lg:items-center">
-        <a class="bg-[#E2BF17] rounded-md text-bold px-4 py-2" href="#">Register</a>
+        <a class="bg-[#E2BF17] rounded-md text-bold px-4 py-2" href="#" onclick="toggleModal('modal-id')">Register</a>
       </div>
     </div>
   </div>
