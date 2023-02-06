@@ -14,11 +14,11 @@ class NavBar extends HTMLElement {
           aria-controls="myDropdown" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
 
-          <img src="../assets/img/menu-white.png" alt="" />
+          <img src="../assets/img/menu-white.png" alt="menu icon" />
         </button>
 
         <div class="hidden lg:ml-4 lg:flex lg:items-center">
-          <img src="../assets/img/stok-logo.svg" class="h-16" alt="" />
+          <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
         </div>
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
