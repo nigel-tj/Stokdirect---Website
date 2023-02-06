@@ -136,8 +136,14 @@ li:hover {
     top: 0;
     right: 25px;
     font-size: 36px;
-    margin-left: 50px;
 }
+
+.sidenav a.closebtn{
+    background-color: transparent;
+    padding: 0;
+    text-align: end;
+}
+
 @media screen and (max-height: 450px) {
     .sidenav {
         padding-top: 15px;

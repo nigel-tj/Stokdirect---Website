@@ -22,7 +22,12 @@ class NavBar extends HTMLElement {
         </div>
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="flex items-center">
+          <div class="lg:ml-4 lg:flex lg:items-center w-3/4">
+            <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
+          </div>
+          <a href="javascript:void(0)" class="closebtn w-1/4" onclick="closeNav()">&times;</a>
+          </div>
           <a href="/" class="flex items-center">
 
             <span>Home</span>
