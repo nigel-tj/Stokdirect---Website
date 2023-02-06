@@ -34,7 +34,7 @@ if (isset($_POST['phone'])) {
     $subject = "Registration Request";
     $subject2 = "Copy of your form submission";
     $message = $name . " wrote the following, " . "\n\n Phone: " . $_POST['phone'] . "\n\n Registration role: " . $_POST['registration_type'];
-    $message2 = "Here is a copy of your message,  " . $name . "\n\n " . $_POST['phone'] . " Registration role:" . $_POST['registration_type'] ;
+    $message2 = "Here is a copy of your message,  " . $name . "\n\n " . $_POST['phone'] . "\n\n Registration role:" . $_POST['registration_type'] ;
 
     $headers = "From:" . $from;
     $headers2 = "From:" . $to;
