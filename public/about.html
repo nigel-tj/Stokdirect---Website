@@ -14,8 +14,8 @@
   <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico" />
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script src="/public/header-functions.js" type="text/javascript" defer></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/public/header-functions.js" type="text/javascript" defer></script>
 
   <script src="/public/components/nav.js" type="text/javascript" defer></script>
   <script src="/public/components/footer.js" type="text/javascript" defer></script>
@@ -26,145 +26,136 @@
   <main>
     <nav-component></nav-component>
     <div>
-      <div id="about" class="flex flex-col lg:flex-row bg-[#122B60] p-32 ">
-        <div class="mx-auto text-center">
-          <h2 class="text-[#E2BF17] text-xl font-semibold mt-5">What We Do</h2>
-          <h1 class="font-black text-2xl lg:text-6xl text-[#E2BF17] my-2">About US</h1>
+      <div id="about" class="flex flex-col lg:flex-row bg-[#E2BF17] pt-32 px-32 relative ">
+        <div class="h-1 bg-[#122B60] absolute bottom-0 left-32 right-32 "></div>
+        <div class="w-full">
+
+          <h1 class="font-black text-2xl lg:text-7xl mt-20 text-[#122B60] my-2">About Us</h1>
+          <div class="text-[#122B60]">
+            <p class="mt-5 ">
+              Stokdirect Virtual Wholesale is a stock forwarding e-commerce platform for Fast
+              Moving Consumer Goods (FMCG) that services an intermediary between FMCG
+              manufacturers and our buyers. Formed in 2022, StokDirect intends to aggregate
+              bulk sales whilst offering real-time data to FMCG manufacturers.
+            </p>
+            <p class="mt-5 ">
+              Stokdirect is able to offer efficient last mile distribution through an independent
+              owner-driver and organised fleet network that is linked to Stokdirect’s Forward Stock
+              Locations (FSL). Stokdirect aims to deliver innovative route-to-market channels for
+              FMCG manufacturers in the African market.
+            </p>
+
+          </div>
+
         </div>
-        <div class="px-10">
-          <p class="mt-5 text-white">
-            Stokdirect Virtual Wholesale is a stock forwarding e-commerce platform for Fast Moving Consumer Goods (FMCG)
-            that services an intermediary between FMCG manufacturers and our buyers.
-          </p>
-          <p class="mt-5 text-white">
-            Formed in 2022, StokDirect intends to aggregate bulk sales whilst offering real-time data to FMCG
-            manufacturers.
-          </p>
-          <p class="mt-5 text-white">
-            Stokdirect is able to offer efficient last mile distribution through an independent owner-driver and
-            organised fleet network that is linked to Stokdirect’s Forward Stock Locations (FSL).
-          </p>
-          <p class="mt-5 text-white">
-            Stokdirect aims to deliver innovative route-to-market channels for FMCG manufacturers in the African market.
-          </p>
+        <div class="w-full">
+          <img src="../assets/img/delivery.png" class="w-full object-contain" alt="">
         </div>
       </div>
+
+    </div>
+    <div class="w-full text-center py-16  bg-[#E2BF17]">
+      <h1 class="text-2xl lg:text-6xl text-[#122B60] font-semibold">OUR CORE VALUES</h1>
+      <h2 class="text-xl lg:text-3xl mt-5 text-[#122B60]">Transparency | Integrity | Convenience | Fun | Sustainabiliity
+      </h2>
+
     </div>
 
     <div
-      class="bg-[#E2BF17] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
+      class="bg-[#122B60] px-8 md:px-15 pt-20 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row lg:flex-row-reverse items-center flex justify-between">
       <div class="w-full">
         <img src="../assets/img/box.png" alt="">
       </div>
-      <div class="w-full">
-        <h1 class="font-black text-2xl lg:text-4xl text-black my-2">Our Mission</h1>
-        <p class="mt-5 text-black">
+      <div class="w-full ">
+        <h1 class="font-black text-2xl lg:text-4xl text-black text-[#E2BF17] my-2">Our Mission</h1>
+        <p class="mt-5 text-black text-[#E2BF17]">
           Stokdirect is dedicated to making the process of purchasing consumer goods more efficient, transparent and
           cost effective.
         </p>
         <br>
-        <h1 class="font-black text-2xl lg:text-4xl text-black my-2">Our Vision</h1>
-        <p class="mt-5 text-black">
+        <h1 class="font-black text-2xl lg:text-4xl text-black my-2 text-[#E2BF17]">Our Vision</h1>
+        <p class="mt-5 text-black text-[#E2BF17]">
           To build a global network of FMCG manufacturing partners for the African market.
         </p>
       </div>
 
     </div>
-    <div
-      class="bg-[#E2BF17] py-12 px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
 
-      <div class="w-full">
-        <h1 class="font-black text-2xl lg:text-4xl text-black my-2">Core Values</h1>
-
-        <ul class="text-black py-4 list-inside list-disc text-xl">
-          <li>Transparency</li>
-          <li>Integrity</li>
-          <li>Convenience</li>
-          <li>Fun</li>
-          <li>Sustainability</li>
-        </ul>
-      </div>
-
-      <div class="w-full">
-        <img src="../assets/img/brand-w636.png" alt="our values">
-      </div>
-
-    </div>
     <!-- team section-->
     <div
-      class="bg-[#132a60] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
+      class="bg-[#E2BF17] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between">
       <div class="w-full">
-        <h2 class="text-[#E2BF17] text-xl font-semibold mt-14">THE TEAM</h2>
-        <h1 class="font-black text-2xl lg:text-4xl text-white my-2">Meet Our Team</h1>
 
-        <div class="grid grid-cols-1 gap-8 mt-8 mb-10 xl:mt-16 md:grid-cols-2 xl:grid-cols-4">
+        <h1 class="font-black text-2xl text-center text-[#122B60] lg:text-4xl mt-10 my-2">Meet Our Team</h1>
+
+        <div class="grid grid-cols-1 gap-8 mt-8 mb-10 xl:mt-10 md:grid-cols-2 xl:grid-cols-4">
 
           <div
-            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            class="flex flex-col items-center text-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-              src="/assets/img/profile-place-holder.png"
-              alt="">
-            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              src="/assets/img/profile-place-holder.png" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-[#122B60] capitalize  ">
               The Maverick
             </h1>
-            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A leader, an explorer and a global citizen.
+            <p class="mt-2  capitalize text-[#122B60] ">A leader, an explorer
+              and a global citizen.
             </p>
           </div>
 
           <div
-            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            class="flex flex-col text-center items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-              src="/assets/img/profile-place-holder.png"
-              alt="">
-            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              src="/assets/img/profile-place-holder.png" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-[#122B60] capitalize ">
               Gen X
             </h1>
-            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A resourceful operator</p>
+            <p class="mt-2 capitalize text-[#122B60] ">A resourceful operator
+            </p>
           </div>
 
           <div
-            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            class="flex text-center flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-              src="/assets/img/profile-place-holder.png"
-              alt="">
-            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              src="/assets/img/profile-place-holder.png" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-[#122B60] capitalize ">
               The Professional
             </h1>
-            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">An expert in supply chain, logistics warehousing</p>
+            <p class="mt-2 capitalize dtext-[#122B60] ">An expert in supply
+              chain, logistics warehousing</p>
           </div>
 
           <div
-            class="flex flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
+            class="flex text-center flex-col items-center p-8 transition-colors duration-300 transform cursor-pointer group hover:bg-[#E2BF17] rounded-xl">
             <img class="object-cover w-32 h-32 rounded-full ring-4 ring-gray-300"
-              src="/assets/img/profile-place-holder.png"
-              alt="">
-            <h1 class="mt-4 text-2xl font-semibold text-white capitalize dark:text-white group-hover:text-white">
+              src="/assets/img/profile-place-holder.png" alt="">
+            <h1 class="mt-4 text-2xl font-semibold text-[#122B60] capitalize ">
               The Dev
             </h1>
-            <p class="mt-2 text-[#E2BF17] capitalize dark:text-gray-300 group-hover:text-white">A forward thinking software developer</p>
+            <p class="mt-2 text-[#122B60] capitalize  ">A forward thinking
+              software developer</p>
           </div>
 
-        
+
         </div>
-        
+
       </div>
+
     </div>
 
-    <div class="bg-[#E2BF17]">
+
+    <div class="bg-[#E2BF17] text-[#122B60] px-30">
+      <div class="h-1 w-10/12 mx-auto bg-[#122B60]"></div>
       <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
         <h2 class="text-xl text-center my-3 font-semibold">Join the Team</h2>
         <h1 class="font-black my-5 text-center lg:text-5xl text-2xl">Careers</h1>
         <p class="text-center lg:w-1/2 m-auto">
-          We are always on the lookout for talented, innovative individuals with something to offer to our ever growing
-          organization.
+          We are always on the lookout for talented, innovative individuals with something to offer to
+          our ever growing organization.If you think you have what it takes, send us your cv to
+          careers@stokdirect.africa
+          Whether you are in Customer Service & Support, Logistics and Warehousing, Design & Software, Graphics,
+          Sales and Marketing, Stokdirect Virtual Warehouse is a career growth potential.
         </p>
-        <p class="text-center lg:w-1/2 m-auto mt-5">
-          If you think you have what it takes, send us your cv to careers@stokdirect.africa
-        </p>
-        <p class="text-center lg:w-1/2 m-auto mt-5">
-          Whether you are in Customer Service & Support, Logistics and Warehousing, Design & Software, Graphics, Sales
-          and Marketing, Stokdirect Virtual Warehouse is a career growth potential.
-        </p>
+
       </div>
     </div>
 
