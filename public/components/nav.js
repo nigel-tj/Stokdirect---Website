@@ -35,15 +35,12 @@ class NavBar extends HTMLElement {
 
             <span>Services</span>
           </a>
-          <a href="/public/faqs.html" class="flex items-center">
-
-            <span>FAQs</span>
-          </a>
+          
           <a href="/public/contact.html" class="flex items-center">
 
             <span>Contact</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="#" class="flex items-center" onclick="toggleModal('modal-id')">
 
             <span>Register</span>
           </a>
