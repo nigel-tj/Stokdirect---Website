@@ -2238,6 +2238,14 @@ textarea.form-control.is-invalid {
   bottom: 0px;
 }
 
+.left-32 {
+  left: 8rem;
+}
+
+.right-32 {
+  right: 8rem;
+}
+
 .top-\[47\%\] {
   top: 47%;
 }
@@ -2282,14 +2290,14 @@ textarea.form-control.is-invalid {
   margin: 0px;
 }
 
-.mx-auto {
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .my-3 {
@@ -2312,12 +2320,20 @@ textarea.form-control.is-invalid {
   margin-bottom: 1.5rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
 .mt-5 {
   margin-top: 1.25rem;
 }
 
-.mt-14 {
-  margin-top: 3.5rem;
+.mb-20 {
+  margin-bottom: 5rem;
 }
 
 .mt-8 {
@@ -2380,14 +2396,6 @@ textarea.form-control.is-invalid {
   margin-top: 1.5rem;
 }
 
-.mt-10 {
-  margin-top: 2.5rem;
-}
-
-.mb-20 {
-  margin-bottom: 5rem;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -2430,6 +2438,10 @@ textarea.form-control.is-invalid {
 
 .hidden {
   display: none;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .h-32 {
@@ -2478,6 +2490,10 @@ textarea.form-control.is-invalid {
   width: 8rem;
 }
 
+.w-10\/12 {
+  width: 83.333333%;
+}
+
 .w-4 {
   width: 1rem;
 }
@@ -2496,10 +2512,6 @@ textarea.form-control.is-invalid {
 
 .w-10 {
   width: 2.5rem;
-}
-
-.w-10\/12 {
-  width: 83.333333%;
 }
 
 .w-auto {
@@ -2752,24 +2764,24 @@ textarea.form-control.is-invalid {
   border-color: rgb(20 184 166 / var(--tw-border-opacity));
 }
 
-.bg-\[\#122B60\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(18 43 96 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#E2BF17\] {
   --tw-bg-opacity: 1;
   background-color: rgb(226 191 23 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#132a60\] {
+.bg-\[\#122B60\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(19 42 96 / var(--tw-bg-opacity));
+  background-color: rgb(18 43 96 / var(--tw-bg-opacity));
 }
 
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#132a60\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 42 96 / var(--tw-bg-opacity));
 }
 
 .bg-gray-400 {
@@ -2835,17 +2847,22 @@ textarea.form-control.is-invalid {
   fill: currentColor;
 }
 
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.p-32 {
-  padding: 8rem;
-}
-
 .p-8 {
   padding: 2rem;
+}
+
+.p-32 {
+  padding: 8rem;
 }
 
 .p-4 {
@@ -2876,24 +2893,9 @@ textarea.form-control.is-invalid {
   padding: 2.5rem;
 }
 
-.px-10 {
-  padding-left: 2.5rem;
-  padding-right: 2.5rem;
-}
-
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.px-32 {
+  padding-left: 8rem;
+  padding-right: 8rem;
 }
 
 .py-16 {
@@ -2901,14 +2903,14 @@ textarea.form-control.is-invalid {
   padding-bottom: 4rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-}
-
-.px-32 {
-  padding-left: 8rem;
-  padding-right: 8rem;
 }
 
 .py-5 {
@@ -2946,9 +2948,24 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.5rem;
 }
 
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
 .py-10 {
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
+}
+
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .px-4 {
@@ -2971,6 +2988,14 @@ textarea.form-control.is-invalid {
   padding-bottom: 0.75rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2983,14 +3008,14 @@ textarea.form-control.is-invalid {
   vertical-align: top;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-base {
@@ -3018,12 +3043,12 @@ textarea.form-control.is-invalid {
   line-height: 2.25rem;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-black {
   font-weight: 900;
+}
+
+.font-semibold {
+  font-weight: 600;
 }
 
 .font-bold {
@@ -3066,19 +3091,19 @@ textarea.form-control.is-invalid {
   letter-spacing: -0.025em;
 }
 
-.text-\[\#E2BF17\] {
+.text-\[\#122B60\] {
   --tw-text-opacity: 1;
-  color: rgb(226 191 23 / var(--tw-text-opacity));
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(18 43 96 / var(--tw-text-opacity));
 }
 
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-\[\#E2BF17\] {
+  --tw-text-opacity: 1;
+  color: rgb(226 191 23 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
@@ -3091,14 +3116,14 @@ textarea.form-control.is-invalid {
   color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .text-gray-500 {
   --tw-text-opacity: 1;
   color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
-.text-\[\#122B60\] {
-  --tw-text-opacity: 1;
-  color: rgb(18 43 96 / var(--tw-text-opacity));
 }
 
 .text-gray-900 {
@@ -3328,23 +3353,6 @@ textarea.form-control.is-invalid {
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
-.group:hover .group-hover\:text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-@media (prefers-color-scheme: dark) {
-  .dark\:text-white {
-    --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .dark\:text-gray-300 {
-    --tw-text-opacity: 1;
-    color: rgb(209 213 219 / var(--tw-text-opacity));
-  }
-}
-
 @media (min-width: 640px) {
   .sm\:max-w-xl {
     max-width: 36rem;
@@ -3424,6 +3432,10 @@ textarea.form-control.is-invalid {
     flex-direction: row;
   }
 
+  .lg\:flex-row-reverse {
+    flex-direction: row-reverse;
+  }
+
   .lg\:flex-wrap {
     flex-wrap: wrap;
   }
@@ -3483,9 +3495,19 @@ textarea.form-control.is-invalid {
     padding-bottom: 0px;
   }
 
+  .lg\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
   .lg\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .lg\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 
   .lg\:text-4xl {
@@ -3497,16 +3519,11 @@ textarea.form-control.is-invalid {
     font-size: 3rem;
     line-height: 1;
   }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
 }
 
 @media (min-width: 1280px) {
-  .xl\:mt-16 {
-    margin-top: 4rem;
+  .xl\:mt-10 {
+    margin-top: 2.5rem;
   }
 
   .xl\:w-96 {

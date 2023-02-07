@@ -14,15 +14,20 @@ class NavBar extends HTMLElement {
           aria-controls="myDropdown" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
 
-          <img src="../assets/img/menu-white.png" alt="" />
+          <img src="../assets/img/menu-white.png" alt="menu icon" />
         </button>
 
         <div class="hidden lg:ml-4 lg:flex lg:items-center">
-          <img src="../assets/img/stok-logo.svg" class="h-16" alt="" />
+          <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
         </div>
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="flex items-center">
+          <div class="lg:ml-4 lg:flex lg:items-center w-3/4">
+            <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
+          </div>
+          <a href="javascript:void(0)" class="closebtn w-1/4" onclick="closeNav()">&times;</a>
+          </div>
           <a href="/" class="flex items-center">
 
             <span>Home</span>
@@ -35,15 +40,12 @@ class NavBar extends HTMLElement {
 
             <span>Services</span>
           </a>
-          <a href="/public/faqs.html" class="flex items-center">
-
-            <span>FAQs</span>
-          </a>
+          
           <a href="/public/contact.html" class="flex items-center">
 
             <span>Contact</span>
           </a>
-          <a href="#" class="flex items-center">
+          <a href="#" class="flex items-center" onclick="toggleModal('modal-id')">
 
             <span>Register</span>
           </a>
