@@ -25,110 +25,284 @@
 
   <main>
     <div>
-      <div id="about" class="flex flex-col lg:flex-row bg-[#122B60] p-32">
-        <div class="mx-auto text-center">
-          <h2 class="text-[#E2BF17] text-xl font-semibold mt-5">What We Do</h2>
+      <div id="about" class="flex flex-col lg:flex-row bg-[#122B60] px-8 py-16 lg:p-32">
+        <div class="mx-auto lg:text-center">
           <h1 class="font-black text-2xl lg:text-6xl text-[#E2BF17] my-2">
             Our Services
           </h1>
+          <p class="text-white ">Stokdirect facilitates direct relationship between consumers and manufacturers in a mutually beneficial manner.</p>
+          <p class="text-white">
+            We drive traffic for manufacturers through our database of banner stores, bulk buying groups, individual and group members who in turn drive traffic for our manufacturer products.
+          </p>
         </div>
       </div>
     </div>
-    <div id="about" class="bg-[#E2BF17]">
-      <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
-        <p class="text-center lg:w-1/2 m-auto">
-          Stokdirect facilitates direct relationship between consumers and manufacturers in a mutually beneficial manner.
-        </p>
-        <p class="text-center lg:w-1/2 m-auto">
-          We drive traffic for manufacturers through our database of banner stores, bulk buying groups, individual and group members who in turn drive traffic for our manufacturer products.
-        </p>
-        <div class="w-full flex justify-center mt-10">
 
-          <a class="px-4 mx-auto bg-[#122B60] hover:bg-[#18377a] text-white py-2 rounded-md" href="#" onclick="toggleModal('modal-id')">Register</a>
-        </div>
-      </div>
-    </div>
 
     <div class="bg-[#122B60]">
       <!-- Two columns -->
-      <div class="flex flex-wrap p-10">
-        
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <h2 class="font-black text-2xl lg:text-3xl text-white my-2">
+      <div class="flex  flex-wrap">
+
+        <div class="w-full md:w-1/2 bg-[#E2BF17] px-10 py-12 lg:py-44">
+          <h2 class="font-black text-2xl lg:text-5xl uppercase text-[#122B60] my-2">
             Bulk buying e-commerce platform
           </h2>
-          <p class="text-white mt-5">
+          <p class="text-[#122B60] mt-5">
             Our software allow our customers to:
           </p>
-          <ul class="list-disc list-inside ml-4 text-white mt-5">
-            <li>View all manufacturer goods and place bulk orders, taking advantage of product promotions and campaigns</li>
-            <li>Track deliveries live and receive real time status and in-app message updates</li>
+          <ul class="list-disc list-inside ml-4  text-[#122B60] mt-5">
+            <li class="">View all manufacturer goods and place bulk orders, taking advantage of product promotions
+              and campaigns
+            </li>
+            <li class="my-5">Track deliveries live and receive real time status and in-app message updates</li>
             <li>24/7 customer support available through in-app messaging services</li>
-          </ul>    
+          </ul>
         </div>
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <img src="/assets/img/b2b-ecommerce-marketplace.jpg" alt="b2b model">
-        </div>
-
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <img src="/assets/img/last-mile.png" alt="b2b model">
+        <div class="w-full md:w-1/2   bg-[#122B60]">
+          <img src="/assets/img/bulk.png" class="w-full  object-cover hidden lg:block" alt="b2b model">
         </div>
 
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <h2 class="font-black text-2xl lg:text-3xl text-white my-2">
+        <div class="w-full md:w-1/2 bg-[#122B60]">
+          <img src="/assets/img/distrubution.png" class="w-full hidden lg:block object-cover" alt="b2b model">
+        </div>
+
+        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10 lg:py-44">
+          <h2 class="font-black text-2xl lg:text-5xl text-white my-2">
             Last-mile Distribution
           </h2>
           <p class="text-white mt-5">
-            With our strategically located forward stock locations (FSLs) we are able to facilitate the entire process of last-mile distribution for our FMCG manufacturers products directly to our customers, which mainly includes; spaza shops, tuck shops, independent retailers, stokvel groups, feeding schemes, donor organisations and other individual groups who purchase consumer goods in bulk on our e-commerce platform.  
+            With our strategically located forward stock locations (FSLs) we are able to facilitate the entire process
+            of last-mile distribution for our FMCG manufacturers products directly to our customers, which mainly
+            includes; spaza shops, tuck shops, independent retailers, stokvel groups, feeding schemes, donor
+            organisations and other individual groups who purchase consumer goods in bulk on our e-commerce platform.
           </p>
-            <p class="text-white mt-5"> 
-              Leveraging our independent owner driver network, we are able to carefully manage, that last mile deliveries are insured, safe, reliable and cost-effective to our customers across Africa.
-            </p>   
+          <p class="text-white mt-5">
+            Leveraging our independent owner driver network, we are able to carefully manage, that last mile deliveries
+            are insured, safe, reliable and cost-effective to our customers across Africa.
+          </p>
         </div>
-      
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <h2 class="font-black text-2xl lg:text-3xl text-white my-2">
+
+        <div class="w-full md:w-1/2 bg-[#E2BF17] px-10 py-10 lg:py-32">
+          <h2 class="font-black text-2xl lg:text-3xl text-[#122B60] my-2">
             Consumer behaviour and insights
           </h2>
-          <p class="text-white mt-5">
-            Stokdirect delivers an innovative route-to-market channel for consumer goods producers in Africa and provides Real-time data from actual transactions that enable manufacturers to get their products into the right consumer market at the right time. </p>
-            <p class="text-white mt-5"> 
-              This enables our manufacturers and goods producers to also use this data to:
-            </p>   
-            <ul class="list-inside list-disc ml-4 text-white">
-              <li>Cross compare sales against and improve on that.</li>
-              <li>See where your products rank against other manufacturers</li>
-              <li>Run effective promotions and campaigns directly with our customers who in drive sales traffic for your products</li>
-              <li>Launch new products and get samples to customers according to accurate data provided</li>
-              <li>Use our banner store network to launch engaging location based advertising campaigns and digital pamphlets to end-consumers</li>
-            </ul>
+          <p class="text-[#122B60] mt-5">
+            Stokdirect delivers an innovative route-to-market channel for consumer goods producers in Africa and
+            provides Real-time data from actual transactions that enable manufacturers to get their products into the
+            right consumer market at the right time. </p>
+          <p class="text-[#122B60] mt-5">
+            This enables our manufacturers and goods producers to also use this data to:
+          </p>
+          <ul class="list-inside list-disc ml-4 text-[#122B60]">
+            <li>Cross compare sales against and improve on that.</li>
+            <li>See where your products rank against other manufacturers</li>
+            <li>Run effective promotions and campaigns directly with our customers who in drive sales traffic for your
+              products</li>
+            <li>Launch new products and get samples to customers according to accurate data provided</li>
+            <li>Use our banner store network to launch engaging location based advertising campaigns and digital
+              pamphlets to end-consumers</li>
+          </ul>
         </div>
-        <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <img src="/assets/img/insights.png" alt="b2b model">
+        <div class="w-full md:w-1/2 bg-[#122B60] ">
+          <img src="/assets/img/consumer.png" alt="b2b model">
         </div>
 
         <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <h2 class="font-black text-2xl lg:text-3xl text-white my-2">
+          <h2 class="font-black text-2xl lg:text-3xl text-[#E2BF17] my-2">
             Forward stock handling and management
           </h2>
           <p class="text-white mt-5">
-            Our company provides forward stock locations to help FMCG manufacturers effectively last-mile distribution throughout Africa. With our strategically located FSL network, we provide FMCG manufacturers the ability to significantly reduce costs by eliminating the need to staff and operate facilities throughout the continent.
+            Our company provides forward stock locations to help FMCG
+            manufacturers effectively last-mile distribution throughout Africa.
+            With our strategically located FSL network, we provide FMCG
+            manufacturers the ability to significantly reduce costs by eliminating
+            the need to staff and operate facilities throughout the continent.
           </p>
-            <p class="text-white mt-5">
-      The continuous development and solutions we provide, help us stay ahead of FMCG manufacturers’ dynamic needs. 
+          <p class="text-white mt-5">
+            The continuous development and solutions we provide, help us stay
+            ahead of FMCG manufacturers’ dynamic needs. The continuous
+            development and solutions we provide, help us stay ahead of
+            customers’ dynamic needs.
           </p>
-          <p class="text-white mt-5">The continuous development and solutions we provide, help us stay ahead of
-            customers’ dynamic needs.</p>
-            <p class="text-white mt-5">We provide:</p>
-          <ul class="list-disc list-inside ml-4 text-white mt-5">
-            <li>Predictable service level and customer experience across all countries</li>
-            <li>Storage space expansion through flexible solutions order</li>
-            <li>End-to-end inventory visibility through our transparent digital platform</li>
-            <li>Management of your brands, categories, Item SKUs with Stock, pricing and promotion details including weight, volume and packaging</li>
-          </ul>
+
+
+
         </div>
         <div class="w-full md:w-1/2 bg-[#122B60] px-10 py-10">
-          <img src="/assets/img/stock-forwarding.png" alt="b2b model">
+          <h3 class="text-white">Predictable service level and customer experience across all countries</h3>
+          <div class="lg:w-full">
+            <div
+              class="question-and-answer select-none cursor-pointer border-2  my-3 px-6 py-4 rounded-lg text-sm group">
+              <dt class="question">
+                <div class="flex justify-between">
+                  <div class="font-semibold text-white">
+                    Predictable service level and customer experience across all countries
+                  </div>
+                  <div>
+                    <svg fill=currentColor
+                      class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg fill=currentColor
+                      class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </dt>
+              <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta dolor beatae, nemo ab eveniet
+                repellat cum suscipit ipsum tenetur eaque cumque laborum dolorum soluta, dolores facilis dolorem
+                temporibus aperiam?
+              </dd>
+            </div>
+          </div>
+          <div class="lg:w-full">
+            <div
+              class="question-and-answer select-none cursor-pointer border-2  my-3 px-6 py-4 rounded-lg text-sm group">
+              <dt class="question">
+                <div class="flex justify-between">
+                  <div class="font-semibold text-white">
+                    Storage space expansion through flexible solutions order
+                  </div>
+                  <div>
+                    <svg fill=currentColor
+                      class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg fill=currentColor
+                      class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </dt>
+              <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta dolor beatae, nemo ab eveniet
+                repellat cum suscipit ipsum tenetur eaque cumque laborum dolorum soluta, dolores facilis dolorem
+                temporibus aperiam?
+              </dd>
+            </div>
+          </div>
+          <div class="lg:w-full">
+            <div
+              class="question-and-answer select-none cursor-pointer border-2  my-3 px-6 py-4 rounded-lg text-sm group">
+              <dt class="question">
+                <div class="flex justify-between">
+                  <div class="font-semibold text-white">
+                    End-to-end inventory visibility through our transparent digital platform
+                  </div>
+                  <div>
+                    <svg fill=currentColor
+                      class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg fill=currentColor
+                      class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </dt>
+              <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta dolor beatae, nemo ab eveniet
+                repellat cum suscipit ipsum tenetur eaque cumque laborum dolorum soluta, dolores facilis dolorem
+                temporibus aperiam?
+              </dd>
+            </div>
+          </div>
+          <div class="lg:w-full">
+            <div
+              class="question-and-answer select-none cursor-pointer border-2  my-3 px-6 py-4 rounded-lg text-sm group">
+              <dt class="question">
+                <div class="flex justify-between">
+                  <div class="font-semibold text-white">
+                    Management of your brands, categories, Item SKUs with Stock, pricing and promotion details including
+                    weight, volume and packaging
+                  </div>
+                  <div>
+                    <svg fill=currentColor
+                      class="question-chevron group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="9.29289322 12.9497475 10 13.6568542 15.6568542 8 14.2426407 6.58578644 10 10.8284271 5.75735931 6.58578644 4.34314575 8">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                    <svg fill=currentColor
+                      class="question-chevron hidden group-hover:bg-gray-500 h-5 block text-indigo-800 bg-gray-400 rounded-full p-1"
+                      viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                      xmlns:xlink="http://www.w3.org/1999/xlink">
+                      <g stroke="currentColor" stroke-width="1" fill=currentColor fill-rule="evenodd">
+                        <g>
+                          <polygon
+                            points="10.7071068 7.05025253 10 6.34314575 4.34314575 12 5.75735931 13.4142136 10 9.17157288 14.2426407 13.4142136 15.6568542 12">
+                          </polygon>
+                        </g>
+                      </g>
+                    </svg>
+                  </div>
+                </div>
+              </dt>
+              <dd class="answer hidden mt-2 leading-snug text-gray-700">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium dicta dolor beatae, nemo ab eveniet
+                repellat cum suscipit ipsum tenetur eaque cumque laborum dolorum soluta, dolores facilis dolorem
+                temporibus aperiam?
+              </dd>
+            </div>
+          </div>
         </div>
 
       </div>
