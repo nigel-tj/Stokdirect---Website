@@ -34,15 +34,15 @@ class Footer extends HTMLElement {
               <h3 class="text-sm font-semibold leading-6 text-white">Our Partners</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
-                  <a href="/public/stock-locations.html" class="text-sm leading-6 text-gray-300 hover:text-white">Stock Forwarding locations</a>
+                  <a href="/public/stock-locations.html" class="text-sm leading-6 text-gray-300 hover:text-white">Stock Forwarding Locations</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Manufactures</a>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Manufacturers</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Retailers</a>
+                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Buyers</a>
                 </li>
 
                 <li>
