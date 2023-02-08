@@ -2068,6 +2068,14 @@ textarea.form-control.is-invalid {
   top: 0px;
 }
 
+.top-\[4\%\] {
+  top: 4%;
+}
+
+.top-\[40\%\] {
+  top: 40%;
+}
+
 .z-30 {
   z-index: 30;
 }
