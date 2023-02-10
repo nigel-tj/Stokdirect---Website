@@ -186,10 +186,10 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">How It Works</a>
+                  <a href="#process" class="text-sm leading-6 text-gray-300 hover:text-white">How It Works</a>
                 </li>
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Get In Touch</a>
+                  <a href="/public/contact.html" class="text-sm leading-6 text-gray-300 hover:text-white">Get In Touch</a>
                 </li>
               </ul>
             </div>
@@ -201,15 +201,15 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Manufacturers</a>
+                  <a href="#footer" class="text-sm leading-6 text-gray-300 hover:text-white">Manufacturers</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Buyers</a>
+                  <a href="#footer" class="text-sm leading-6 text-gray-300 hover:text-white" onclick="toggleModal('modal-id')">Buyers</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Drivers</a>
+                  <a href="#footer" class="text-sm leading-6 text-gray-300 hover:text-white" onclick="toggleModal('modal-id')">Drivers</a>
                 </li>
               </ul>
             </div>
