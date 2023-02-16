@@ -26,9 +26,17 @@ if (empty($_POST['registration_type'])) {
   $errors['registration_type'] = 'Select a role to register as.';
 }
 
+if($_POST['registration_type'] == 'buyer'){
+    $toEmail = "buyer@stokdirect.africa";
+}elseif($_POST['registration_type'] == 'driver'){
+    $toEmail = "driver@stokdirect.africa";
+}else{
+    $toEmail = "contact@stokdirect.africa";
+}
+
 
 if (isset($_POST['phone'])) {
-    $to = "contact@stokdirect.africa"; // this is your Email address
+    $to = $toEmail; // this is your Email address
     $from = $_POST['email']; // this is the sender's Email address
     $name = $_POST['first_name'];
     $subject = "Registration Request";
