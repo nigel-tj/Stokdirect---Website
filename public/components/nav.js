@@ -45,7 +45,7 @@ class NavBar extends HTMLElement {
 
             <span>Contact</span>
           </a>
-          <a href="//erp.stokdirect.africa/login#signup" class="flex items-center" target="_blank">
+          <a href="//erp.stokdirect.africa/register/new" class="flex items-center" target="_blank">
             <span>Register</span>
           </a>
 
