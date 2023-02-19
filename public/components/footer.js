@@ -205,11 +205,11 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white">Buyers</a>
+                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyers</a>
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white">Drivers</a>
+                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Drivers</a>
                 </li>
               </ul>
             </div>
@@ -231,7 +231,7 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white">Registration</a>
+                  <a href="//erp.stokdirect.africa/login#signup" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Registration</a>
                 </li>
 
 

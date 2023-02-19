@@ -45,8 +45,7 @@ class NavBar extends HTMLElement {
 
             <span>Contact</span>
           </a>
-          <a href="#" class="flex items-center" onclick="toggleModal('modal-id')">
-
+          <a href="//erp.stokdirect.africa/login#signup" class="flex items-center" target="_blank">
             <span>Register</span>
           </a>
 
