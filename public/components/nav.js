@@ -45,11 +45,6 @@ class NavBar extends HTMLElement {
 
             <span>Contact</span>
           </a>
-          <a href="//erp.stokdirect.africa/register/new" class="flex items-center" target="_blank">
-            <span>Register</span>
-          </a>
-
-
         </div>
       </div>
       <div class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
@@ -62,9 +57,6 @@ class NavBar extends HTMLElement {
         </div>
       </div>
 
-      <div class="hidden lg:ml-4 lg:flex lg:items-center">
-        <a class="bg-[#E2BF17] rounded-md text-bold px-4 py-2" href="#" onclick="toggleModal('modal-id')">Register</a>
-      </div>
     </div>
   </div>
 
