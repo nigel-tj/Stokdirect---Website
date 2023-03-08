@@ -243,15 +243,15 @@ class Footer extends HTMLElement {
               <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 ">About Us</a>
+                  <a href="/public/about.html" class="text-sm leading-6 text-gray-300 ">About Us</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
+                  <a href="/public/faqs.html" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
                 </li>
 
                 <li>
-                  <a href="#" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
+                  <a href="/public/contact.html" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
                 </li>
               </ul>
             </div>
