@@ -231,7 +231,7 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/register/new" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Registration</a>
+                  <a href="/public/delivery-instruction.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
                 </li>
 
 
