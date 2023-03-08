@@ -229,7 +229,9 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="/public/buyer-protection.html" class="text-sm leading-6 text-gray-300 hover:text-white">Buyer Protection</a>
                 </li>
-
+                <li>
+                  <a href="/public/returns-and-refunds.html" class="text-sm leading-6 text-gray-300 hover:text-white">Returns & Refunds Policy</a>
+                </li>
                 <li>
                   <a href="/public/delivery-instruction.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
                 </li>
