@@ -233,7 +233,7 @@ class Footer extends HTMLElement {
                   <a href="/public/returns-and-refunds.html" class="text-sm leading-6 text-gray-300 hover:text-white">Returns & Refunds Policy</a>
                 </li>
                 <li>
-                  <a href="/public/delivery-instruction.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
+                  <a href="/public/delivery-instructions.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
                 </li>
                 <li>
                   <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank" download>Driver Contract</a>
