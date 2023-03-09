@@ -205,11 +205,11 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="/public/buyers.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyers</a>
+                  <a href="//erp.stokdirect.africa/register/new" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyers</a>
                 </li>
 
                 <li>
-                  <a href="/public/drivers.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Drivers</a>
+                  <a href="//erp.stokdirect.africa/register/new" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Drivers</a>
                 </li>
               </ul>
             </div>
@@ -234,6 +234,9 @@ class Footer extends HTMLElement {
                 </li>
                 <li>
                   <a href="/public/delivery-instruction.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
+                </li>
+                <li>
+                  <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank" download>Driver Contract</a>
                 </li>
 
 
