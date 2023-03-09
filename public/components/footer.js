@@ -201,15 +201,15 @@ class Footer extends HTMLElement {
                 </li>
 
                 <li>
-                  <a href="#footer" class="text-sm leading-6 text-gray-300 hover:text-white">Manufacturers</a>
+                  <a href="//erp.stokdirect.africa/login#login" class="text-sm leading-6 text-gray-300 hover:text-white">Manufacturers</a>
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/register/new" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyers</a>
+                  <a href="//erp.stokdirect.africa/login#login" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyers</a>
                 </li>
 
                 <li>
-                  <a href="//erp.stokdirect.africa/register/new" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Drivers</a>
+                  <a href="//erp.stokdirect.africa/login#login" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Drivers</a>
                 </li>
               </ul>
             </div>
