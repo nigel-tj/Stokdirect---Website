@@ -219,24 +219,21 @@ class Footer extends HTMLElement {
               <h3 class="text-sm font-semibold leading-6 text-white">Resources</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
-                  <a href="/public/terms-and-conditions.html" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
+                  <a href="/public/docs/Stokdirect-Terms-of-Use-&-Stokdirect-User-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
                 </li>
                 
                 <li>
-                  <a href="/public/privacy-policy.html" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy Policy</a>
+                  <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy Policy</a>
                 </li>
-                
+
                 <li>
-                  <a href="/public/buyer-protection.html" class="text-sm leading-6 text-gray-300 hover:text-white">Buyer Protection</a>
-                </li>
-                <li>
-                  <a href="/public/returns-and-refunds.html" class="text-sm leading-6 text-gray-300 hover:text-white">Returns & Refunds Policy</a>
+                  <a href="/public/docs/Stokdirect-Returns-&-Refunds-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Returns & Refunds Policy</a>
                 </li>
                 <li>
-                  <a href="/public/delivery-instructions.html" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
+                  <a href="/public/docs/Stokdirect-Delivery-Instructions.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
                 </li>
                 <li>
-                  <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank" download>Driver Contract</a>
+                  <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Driver Contract</a>
                 </li>
 
 
