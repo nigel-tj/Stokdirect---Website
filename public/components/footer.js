@@ -219,15 +219,15 @@ class Footer extends HTMLElement {
               <h3 class="text-sm font-semibold leading-6 text-white">Resources</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
-                  <a href="/public/docs/Stokdirect-Terms-of-Use-&-Stokdirect-User-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Terms and Conditions</a>
+                  <a href="/public/docs/Stokdirect-Terms-of-Use-&-Stokdirect-User-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Terms and Conditions</a>
                 </li>
                 
                 <li>
-                  <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Privacy Policy</a>
+                  <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Privacy Policy</a>
                 </li>
 
                 <li>
-                  <a href="/public/docs/Stokdirect-Returns-&-Refunds-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white">Returns & Refunds Policy</a>
+                  <a href="/public/docs/Stokdirect-Returns-&-Refunds-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Returns & Refunds Policy</a>
                 </li>
                 <li>
                   <a href="/public/docs/Stokdirect-Delivery-Instructions.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
