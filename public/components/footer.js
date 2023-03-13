@@ -176,7 +176,7 @@ class Footer extends HTMLElement {
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
-              <h3 class="text-sm font-semibold leading-6 text-white">Product</h3>
+              <h3 class="text-sm font-semibold leading-6 text-white">Services</h3>
               <ul role="list" class="mt-6 space-y-4">
                 <li>
                   <a href="/" class="text-sm leading-6 text-gray-300 hover:text-white">Home</a>
@@ -225,7 +225,12 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Privacy Policy</a>
                 </li>
-
+                <li>
+                  <a href="/public/docs/Stokdirect-Buyer-Protection.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyer Protection</a>
+                </li>
+                <li>
+                  <a href="/public/docs/Consumer-Protection-Act.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Consumer Protection</a>
+                </li>
                 <li>
                   <a href="/public/docs/Stokdirect-Returns-&-Refunds-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Returns & Refunds Policy</a>
                 </li>
@@ -240,10 +245,12 @@ class Footer extends HTMLElement {
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h3 class="text-sm font-semibold leading-6 text-white">Company</h3>
+              <h3 class="text-sm font-semibold leading-6 text-white">About Us</h3>
               <ul role="list" class="mt-6 space-y-4">
+                <li>                   
+                </li>
                 <li>
-                  <a href="/public/about.html" class="text-sm leading-6 text-gray-300 ">About Us</a>
+                  <a href="/public/about.html" class="text-sm leading-6 text-gray-300 ">Who We Are</a>
                 </li>
 
                 <li>
