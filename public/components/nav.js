@@ -5,7 +5,7 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-  <nav class="bg-[#3768b100] z-40 absolute left-0 right-0 top-0">
+  <nav class="nav-bg z-40 absolute left-0 right-0 top-0">
   <div class="w-full px-2 sm:px-4 lg:px-8">
     <div class="flex h-16 justify-between">
       <div class="flex items-center px-2 lg:px-0">
