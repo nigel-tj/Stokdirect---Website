@@ -252,11 +252,16 @@ class Footer extends HTMLElement {
                 <li>
                   <a href="/public/about.html" class="text-sm leading-6 text-gray-300 ">Who We Are</a>
                 </li>
-
+                <li>
+                <a href="/public/about.html#team" class="text-sm leading-6 text-gray-300 ">Our Team</a>
+              </li>
+              
                 <li>
                   <a href="/public/faqs.html" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
                 </li>
-
+                <li>
+                  <a href="/public/about.html#careers" class="text-sm leading-6 text-gray-300 ">Careers</a>
+                </li>
                 <li>
                   <a href="/public/contact.html" class="text-sm leading-6 text-gray-300 hover:text-white">Contact Us</a>
                 </li>
