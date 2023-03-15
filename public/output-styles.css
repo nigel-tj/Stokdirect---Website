@@ -2052,20 +2052,20 @@ textarea.form-control.is-invalid {
   right: 8rem;
 }
 
-.top-\[40\%\] {
-  top: 40%;
+.right-0 {
+  right: 0px;
 }
 
 .left-0 {
   left: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .top-0 {
   top: 0px;
+}
+
+.top-\[40\%\] {
+  top: 40%;
 }
 
 .z-30 {
@@ -2619,16 +2619,16 @@ textarea.form-control.is-invalid {
   padding: 0.25rem;
 }
 
+.p-0 {
+  padding: 0px;
+}
+
 .p-5 {
   padding: 1.25rem;
 }
 
 .p-2 {
   padding: 0.5rem;
-}
-
-.p-0 {
-  padding: 0px;
 }
 
 .px-8 {
