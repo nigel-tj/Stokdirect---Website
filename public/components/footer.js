@@ -189,8 +189,9 @@ class Footer extends HTMLElement {
                   <a href="#process" class="text-sm leading-6 text-gray-300 hover:text-white">How It Works</a>
                 </li>
                 <li>
-                  <a href="/public/contact.html" class="text-sm leading-6 text-gray-300 hover:text-white">Get In Touch</a>
+                  <a href="/public/faqs.html" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
                 </li>
+                
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
@@ -218,30 +219,25 @@ class Footer extends HTMLElement {
             <div>
               <h3 class="text-sm font-semibold leading-6 text-white">Resources</h3>
               <ul role="list" class="mt-6 space-y-4">
-                <li>
+              <li>
+              <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Privacy Policy</a>
+            </li>  
+              <li>
                   <a href="/public/docs/Stokdirect-Terms-of-Use-&-Stokdirect-User-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Terms and Conditions</a>
                 </li>
                 
                 <li>
-                  <a href="/public/docs/Stodirect-Privacy-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Privacy Policy</a>
-                </li>
-                <li>
                   <a href="/public/docs/Stokdirect-Buyer-Protection.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Buyer Protection</a>
                 </li>
                 <li>
-                  <a href="/public/docs/Consumer-Protection-Act.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Consumer Protection</a>
-                </li>
+                <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Driver Contract</a>
+              </li>
                 <li>
                   <a href="/public/docs/Stokdirect-Returns-&-Refunds-Policy.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Returns & Refunds Policy</a>
                 </li>
                 <li>
                   <a href="/public/docs/Stokdirect-Delivery-Instructions.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Delivery Instructions</a>
                 </li>
-                <li>
-                  <a href="/public/docs/Stokdirect-Independent-Owner-Driver-Contract.pdf" class="text-sm leading-6 text-gray-300 hover:text-white" target="_blank">Driver Contract</a>
-                </li>
-
-
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
@@ -254,11 +250,7 @@ class Footer extends HTMLElement {
                 </li>
                 <li>
                 <a href="/public/about.html#team" class="text-sm leading-6 text-gray-300 ">Our Team</a>
-              </li>
-              
-                <li>
-                  <a href="/public/faqs.html" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>
-                </li>
+              </li>    
                 <li>
                   <a href="/public/about.html#careers" class="text-sm leading-6 text-gray-300 ">Careers</a>
                 </li>
