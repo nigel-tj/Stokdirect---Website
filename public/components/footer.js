@@ -170,7 +170,7 @@ class Footer extends HTMLElement {
 
     <footer class="bg-[#122B60]" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
-    <div class="mx-auto max-w-7xl px-6 py-8 sm:py-12 lg:px-8 lg:py-20">
+    <div class="mx-auto max-w-7xl px-6 py-6 sm:py-10 lg:px-8 lg:py-12">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
         <img class="h-20" src="../assets/img/stok-logo.svg" alt="Company name">
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
