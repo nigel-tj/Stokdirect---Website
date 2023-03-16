@@ -172,7 +172,10 @@ class Footer extends HTMLElement {
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 py-6 sm:py-10 lg:px-8 lg:py-12">
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="">
         <img class="h-20" src="../assets/img/stok-logo.svg" alt="Company name">
+        <span class="text-white">&nbsp;&nbsp;Stokdirect Virtual Wholsale (Pty) Ltd.</span>
+        </div>
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
             <div>
