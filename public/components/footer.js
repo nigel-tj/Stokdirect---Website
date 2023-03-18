@@ -185,11 +185,19 @@ class Footer extends HTMLElement {
                   <a href="/" class="text-sm leading-6 text-gray-300 hover:text-white">Home</a>
                 </li>
                 <li>
-                  <a href="/public/services.html" class="text-sm leading-6 text-gray-300 hover:text-white">Services</a>
+                  <a href="/public/services.html#e-commerce" class="text-sm leading-6 text-gray-300 hover:text-white">E-Commerce Platform</a>
                 </li>
-
                 <li>
-                  <a href="#process" class="text-sm leading-6 text-gray-300 hover:text-white">How It Works</a>
+                <a href="/public/services.html#stock-handling" class="text-sm leading-6 text-gray-300 hover:text-white">Stock Handling</a>
+              </li>
+              <li>
+                <a href="/public/services.html#distribution" class="text-sm leading-6 text-gray-300 hover:text-white">Last-Mile Distribution</a>
+              </li>
+              <li>
+                <a href="/public/services.html#insights" class="text-sm leading-6 text-gray-300 hover:text-white">Consumer Insights</a>
+              </li>
+                <li>
+                  <a href="#how-we-do-it" class="text-sm leading-6 text-gray-300 hover:text-white">How We Do It</a>
                 </li>
                 <li>
                   <a href="/public/faqs.html" class="text-sm leading-6 text-gray-300 hover:text-white">FAQs</a>

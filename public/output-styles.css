@@ -2268,22 +2268,6 @@ textarea.form-control.is-invalid {
   height: 1.5rem;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-\[450px\] {
-  height: 450px;
-}
-
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-\[350px\] {
-  height: 350px;
-}
-
 .w-full {
   width: 100%;
 }
@@ -2324,12 +2308,12 @@ textarea.form-control.is-invalid {
   width: auto;
 }
 
-.w-3\/5 {
-  width: 60%;
-}
-
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-3\/5 {
+  width: 60%;
 }
 
 .max-w-7xl {
