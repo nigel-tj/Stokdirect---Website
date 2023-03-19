@@ -17,7 +17,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
+
   <title>STOK DIRECT | Home</title>
   <link rel="stylesheet" href="/public/output-styles.css" />
   <link rel="stylesheet" href="/public/dropdown-styles.css" />
@@ -28,7 +28,9 @@
   <link rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
   <script src="https://code.jquery.com/jquery-3.6.3.min.js"
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+    integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="/public/header-functions.js" type="text/javascript" defer></script>
   <script src="/public/components/nav.js" type="text/javascript" defer></script>
@@ -39,37 +41,38 @@
 
 <body>
 
-   <!-- Messenger Chat plugin Code -->
-   <div id="fb-root"></div>
+  <!-- Messenger Chat plugin Code -->
+  <div id="fb-root"></div>
 
-   <!-- Your Chat plugin code -->
-   <div id="fb-customer-chat" class="fb-customerchat">
-   </div>
- 
-   <script>
-     var chatbox = document.getElementById('fb-customer-chat');
-     chatbox.setAttribute("page_id", "109281638727702");
-     chatbox.setAttribute("attribution", "biz_inbox");
-   </script>
- 
-   <!-- Your SDK code -->
-   <script>
-     window.fbAsyncInit = function() {
-       FB.init({
-         xfbml            : true,
-         version          : 'v16.0'
-       });
-     };
- 
-     (function(d, s, id) {
-       var js, fjs = d.getElementsByTagName(s)[0];
-       if (d.getElementById(id)) return;
-       js = d.createElement(s); js.id = id;
-       js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
-       fjs.parentNode.insertBefore(js, fjs);
-     }(document, 'script', 'facebook-jssdk'));
-   </script>
- 
+  <!-- Your Chat plugin code -->
+  <div id="fb-customer-chat" class="fb-customerchat">
+  </div>
+
+  <script>
+    var chatbox = document.getElementById('fb-customer-chat');
+    chatbox.setAttribute("page_id", "109281638727702");
+    chatbox.setAttribute("attribution", "biz_inbox");
+  </script>
+
+  <!-- Your SDK code -->
+  <script>
+    window.fbAsyncInit = function () {
+      FB.init({
+        xfbml: true,
+        version: 'v16.0'
+      });
+    };
+
+    (function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s);
+      js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+  </script>
+
 
   <div>
     <main>
@@ -111,7 +114,32 @@
           </button>
         </div>
 
-      </div>      
+      </div>
+      <div>
+        <div id="about" class="bg-[#122B60]" id="how-we-do-it">
+          <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
+            <h1 class="font-black my-5 text-center text-white lg:text-4xl text-xl uppercase">Our Customers</h1>
+            <p class="text-center text-white font-normal lg:w-1/2 m-auto">
+              We target business owners that purchase bulk to resell at their stores which a located in high density
+              communities which includes, but is not limited to:
+            </p>
+            <div class="text-center">
+            <ul class="text-white mx-auto">
+              <li>Unformalized buying groups</li>
+              <li>Informal retailers</li>
+              <li>School nutrition programs</li>
+              <li>Caterers and events</li>
+              <li>Donor organisations </li>
+              <li>NGOs and NPOs</li>
+            </ul>
+            </div>
+            <div class="flex">
+              <button class="py-2 px-4 rounded-md text-black font-medium mx-auto mt-4 bg-[#E2BF17]"
+                type="submit">Sing Up</button>
+            </div>
+          </div>
+        </div>
+      </div>
       <div>
         <!-- Hero card -->
         <div class="relative">
@@ -174,7 +202,8 @@
           <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
             <h1 class="font-black my-5 text-center text-[#132a60] lg:text-4xl text-xl">WHAT WE DO</h1>
             <p class="text-center text-[#132a60] font-normal lg:w-1/2 m-auto">
-              Stockdirect virtual wholesale facilitates a relationship for its customers to purchase consumer goods in bulk as a single transaction.
+              Stockdirect virtual wholesale facilitates a relationship for its customers to purchase consumer goods in
+              bulk as a single transaction.
             </p>
           </div>
         </div>
@@ -389,7 +418,7 @@
 
   <footer-component></footer-component>
 
- 
+
   <script>
     let questions = document.querySelectorAll(".faq__question");
     questions.forEach((question) => {
