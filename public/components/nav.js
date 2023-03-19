@@ -57,7 +57,7 @@ class NavBar extends HTMLElement {
           <a class="text-white hover:text-gray-200" href="/public/services.html">Services</a>    
           <a class="text-white hover:text-gray-200" href="/public/contact.html">Contact</a>
           <a href="//erp.stokdirect.africa/login#login" class="text-white hover:text-gray-200"><span>Login</span></a>
-          <a href="//erp.stokdirect.africa/register/new" class="py-2 px-4 rounded-md flex items-center bg-[#E2BF17]"><span>Register</span></a>
+          <a href="//erp.stokdirect.africa/register/new" class="py-2 px-4 rounded-md flex items-center bg-[#E2BF17]"><span class="text-[#132a60]">Register</span></a>
         </div>
       </div>
 
