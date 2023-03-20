@@ -174,7 +174,6 @@ class Footer extends HTMLElement {
       <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="">
         <img class="h-20" src="../assets/img/stok-logo.svg" alt="Company name">
-        <span class="text-white">&nbsp;&nbsp;Stokdirect Virtual Wholsale (Pty) Ltd.</span>
         </div>
         <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
           <div class="md:grid md:grid-cols-2 md:gap-8">
