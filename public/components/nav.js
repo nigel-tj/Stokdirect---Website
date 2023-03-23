@@ -5,7 +5,7 @@ class NavBar extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-  <nav class="bg-[#3768b100] z-40 absolute left-0 right-0 top-0">
+  <nav class="nav-bg z-40">
   <div class="w-full px-2 sm:px-4 lg:px-8">
     <div class="flex h-16 justify-between">
       <div class="flex items-center px-2 lg:px-0">
@@ -45,15 +45,19 @@ class NavBar extends HTMLElement {
 
             <span>Contact</span>
           </a>
+          <a href="//erp.stokdirect.africa/login#login" class="text-white hover:text-gray-200"><span>Login</span>
+          </a>
+          <a href="//erp.stokdirect.africa/register/new" class="text-white hover:text-gray-200"><span>Register</span></a>
         </div>
       </div>
       <div class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
         <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
           <a class="text-white hover:text-gray-200" href="/">Home</a>
           <a class="text-white hover:text-gray-200" href="/public/about.html">About Us</a>
-          <a class="text-white hover:text-gray-200" href="/public/services.html">Services</a>
-          <a class="text-white hover:text-gray-200" href="/public/faqs.html">FAQs</a>
+          <a class="text-white hover:text-gray-200" href="/public/services.html">Services</a>    
           <a class="text-white hover:text-gray-200" href="/public/contact.html">Contact</a>
+          <a href="//erp.stokdirect.africa/login#login" class="text-white hover:text-gray-200"><span>Login</span></a>
+          <a href="//erp.stokdirect.africa/register/new" class="py-2 px-4 rounded-md flex items-center bg-[#E2BF17]"><span class="text-[#132a60]">Register</span></a>
         </div>
       </div>
 
