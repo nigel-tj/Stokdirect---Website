@@ -274,6 +274,9 @@ class Footer extends HTMLElement {
       </div>
     </div>
   </footer>
+  <button class="btn btn-primary scroll-top" data-scroll="up" type="button">
+    <i class="fa fa-chevron-up"></i>
+  </button>
 
     `;
   }
