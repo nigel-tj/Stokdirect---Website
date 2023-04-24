@@ -18,7 +18,9 @@ class NavBar extends HTMLElement {
         </button>
 
         <div class="hidden lg:ml-4 lg:flex lg:items-center">
-          <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
+          <a href="/">
+            <img src="../assets/img/stok-logo.svg" class="h-18" alt="stokdirect logo" />
+          </a>
         </div>
         <!-- Sidebar Navigation -->
         <div id="mySidenav" class="sidenav z-40 flex flex-col">
