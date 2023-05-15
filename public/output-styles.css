@@ -2675,6 +2675,15 @@ textarea.form-control.is-invalid {
   color: rgb(20 184 166 / var(--tw-text-opacity));
 }
 
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#fff\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .mix-blend-multiply {
   mix-blend-mode: multiply;
 }
@@ -2904,6 +2913,10 @@ textarea.form-control.is-invalid {
 
   .lg\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
   }
 
   .lg\:block {
