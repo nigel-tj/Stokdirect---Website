@@ -13,7 +13,6 @@ class NavBar extends HTMLElement {
           class="inline-flex dropbtn lg:hidden items-center justify-center rounded-md p-2 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white mr-3 -ml-3"
           aria-controls="myDropdown" aria-expanded="false">
           <span class="sr-only">Open main menu</span>
-
           <img src="../assets/img/menu-white.png" alt="menu icon" />
         </button>
 
@@ -52,7 +51,7 @@ class NavBar extends HTMLElement {
           <a href="//erp.stokdirect.africa/register/new" class="text-white hover:text-gray-200"><span>Sign Up</span></a>
         </div>
       </div>
-      <div class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
+      <div id="main-nav" class="lg:flex flex-1 hidden items-center justify-center px-2 lg:ml-6 lg:justify-end">
         <div class="max-w-lg lg:max-w-md flex items-center justify-evenly w-full">
           <a class="text-white hover:text-gray-200" href="/">Home</a>
           <a class="text-white hover:text-gray-200" href="/public/about.html">About Us</a>

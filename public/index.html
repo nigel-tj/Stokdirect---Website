@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="/public/output-styles.css" />
   <link rel="stylesheet" href="/public/dropdown-styles.css" />
   <link rel="stylesheet" href="/public/custom-styles.css" />
+  <link rel="stylesheet" href="/public/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -31,6 +32,8 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
   </script>
+  <!-- Swiper JS -->
+  <script src="/public/swiper-bundle.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="/public/header-functions.js" type="text/javascript" defer></script>
   <script src="/public/components/nav.js" type="text/javascript" defer></script>
@@ -78,8 +81,8 @@
   <div>
     <main>
       <nav-component></nav-component>
-
-      <div>
+      <!--start customer slider-->
+      <div id="customers-slide">
 
         <div id="carouselExampleCrossfade" class="carousel slide carousel-fade relative" data-bs-ride="carousel">
           <div class="carousel-indicators absolute right-0 bottom-0 left-0 flex justify-center p-0 mb-4">
@@ -89,11 +92,11 @@
               aria-label="Slide 2"></button>
             <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="2"
               aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="3"
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="3"
               aria-label="Slide 4"></button>
-              <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="4"
+            <button type="button" data-bs-target="#carouselExampleCrossfade" data-bs-slide-to="4"
               aria-label="Slide 5"></button>
-              
+
           </div>
           <div class="carousel-inner relative w-full overflow-hidden">
             <div class="carousel-item active float-left w-full">
@@ -130,17 +133,103 @@
         </div>
 
       </div>
+      <!--end customer slider-->
+
+      <!-- product slider -->
+      <div id="products-slider" class="bg-[#E2BF17] bg-opacity-0 px-8 md:px-15 lg:px-32 py-20">
+        <div class="slide-container swiper">
+          <div class="slide-content">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="/assets/img/banners/okubabayo1.png" alt="" class="card-img" />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <button class="button">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="/assets/img/banners/okubabayo2.png" alt="" class="card-img" />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <button class="button">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="/assets/img/banners/okubabayo3.png" alt="" class="card-img" />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <button class="button">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="/assets/img/banners/okubabayo4.png" alt="" class="card-img" />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <button class="button">View More</button>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-content">
+                  <span class="overlay"></span>
+
+                  <div class="card-image">
+                    <img src="/assets/img/banners/okubabayo5.png" alt="" class="card-img" />
+                  </div>
+                </div>
+
+                <div class="card-content">
+                  <button class="button">View More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- end product slider -->
+
+
       <div>
         <div id="about" class="bg-[#122B60]" id="how-we-do-it">
           <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
-            <h1 class="font-black my-5 text-center text-white lg:text-4xl text-xl uppercase">Our Customers</h1>
+            <h1 class="font-black my-5 text-center text-white lg:text-4xl text-xl uppercase">Who Uses Our Services</h1>
             <p class="text-center text-white font-normal lg:w-1/2 m-auto">
-              Our customers are, Store Owners like Spaza Shops/Tuckshops, Banner Stores and other Informal Retailers in high density areas, Bulk buying groups like Stokvels, Caterers, Event Organisers, Donor Organisations including NGO's and NPO's, School Nutrition programs like Feeding Schemes, Individuals and other group members like Company Departments that have registered to use our platform.
+              Local & International FMCG Manufacturers targeting to sell their products to high density communities in
+              South Africa without the hassle of warehousing and last mile distribution. Customers that want to buy
+              conveniently, on their terms and get goods delivered to their location.
             </p>
-            
+
             <div class="flex">
-              <a href="//erp.stokdirect.africa/register/new" class="py-2 px-4 rounded-md text-[#132a60] font-medium mx-auto mt-4 bg-[#E2BF17]"
-                type="submit">Sign Up</a>
+              <a href="//erp.stokdirect.africa/register/new"
+                class="py-2 px-4 rounded-md text-[#132a60] font-medium mx-auto mt-4 bg-[#E2BF17]" type="submit">Sign
+                Up</a>
             </div>
           </div>
         </div>
@@ -204,16 +293,16 @@
       </div>
     -->
 
-<!-- Logo cloud -->
-<div id="about" class="bg-[#E2BF17]" id="how-we-do-it">
-  <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
-    <h1 class="font-black my-5 text-center text-[#132a60] lg:text-4xl text-xl">WHAT WE DO</h1>
-    <p class="text-center text-[#132a60] font-normal lg:w-1/2 m-auto">
-      Stockdirect virtual wholesale facilitates a relationship for its customers to purchase consumer goods in
-      bulk as a single transaction.
-    </p>
-  </div>
-</div>
+      <!-- Logo cloud -->
+      <div id="about" class="bg-[#E2BF17]" id="how-we-do-it">
+        <div class="mx-auto max-w-7xl py-16 px-6 lg:px-8">
+          <h1 class="font-black my-5 text-center text-[#132a60] lg:text-4xl text-xl">WHAT WE DO</h1>
+          <p class="text-center text-[#132a60] font-normal lg:w-1/2 m-auto">
+            By signing up, Stokdirect offers a direct buying and sales channel for consumer goods between manufacturers
+            and our customers on one platform.
+          </p>
+        </div>
+      </div>
 
       <div
         class="bg-[#132a60] px-8 md:px-15 space-y-6 lg:space-y-0 lg:space-x-8 lg:px-32 flex-col lg:flex-row items-center flex justify-between"
@@ -222,10 +311,12 @@
           <!--<h2 class="text-[#E2BF17] text-xl font-semibold mt-5">PROCESS</h2>-->
           <h1 class="font-black text-2xl lg:text-4xl text-white my-2">HOW WE DO IT</h1>
           <p class="mt-5 text-white">
-            Stokdirect receives manufacturer products at its forward stock locations, which offer multi-user storage
-            that is flexible to demand and cost effective, and then we conveniently distribute those products to our
-            customers directly.
+            As a customer, once you have signed up, choose your products from 2567+ , select your delivery location
+            within a 50km radius from one of our 6 Foward Stock Locations, pay for your goods and track your delivery
+            live.
           </p>
+          <p class="mt-5 text-white"><strong>Note:</strong> Radius coverage on the map for 50km from distribution
+            address for all 6 locations. </p>
         </div>
         <div class="w-fulljustify-center">
           <img src="../assets/img/ipad.png" alt=" our process">
@@ -263,6 +354,8 @@
           <img src="../assets/img/box.png" class=" " alt="">
         </div>
       </div>
+
+
       <div id="contact" class="bg-[#122B60] px-8 md:px-15 lg:px-32 py-20">
         <h1 class="text-[#E2BF17] text-2xl text-center">GET IN TOUCH</h1>
         <h1 class="font-bold text-2xl lg:text-4xl text-white mt-5 mb-20 text-center">CONTACT US</h1>
@@ -425,6 +518,36 @@
 
 
   <script>
+    var swiper = new Swiper(".slide-content", {
+      slidesPerView: 3,
+      spaceBetween: 25,
+      loop: true,
+      centerSlide: 'true',
+      fade: 'true',
+      grabCursor: 'true',
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1,
+        },
+        520: {
+          slidesPerView: 2,
+        },
+        950: {
+          slidesPerView: 3,
+        },
+      },
+    });
+
     let questions = document.querySelectorAll(".faq__question");
     questions.forEach((question) => {
       question.addEventListener("click", function () {
@@ -547,7 +670,7 @@
       $(this).find(".question-chevron").toggleClass("hidden")
     })
   </script>
- 
+
   <script type="module" src="https://cookieconsent.popupsmart.com/js/CookieConsent.js"></script>
   <script type="text/javascript" src="https://cookieconsent.popupsmart.com/js/App.js"></script>
   <script>
