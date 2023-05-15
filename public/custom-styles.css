@@ -79,6 +79,7 @@
 .card-image{
   position: relative;
   padding: 3px;
+  height: 350px;
 }
 .card-image .card-img{
   height: 100%;
@@ -106,6 +107,7 @@
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
+  font-weight: bold;
 }
 .button:hover{
   background: #122B60;
