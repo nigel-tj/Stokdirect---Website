@@ -99,20 +99,21 @@
 .button{
   border: none;
   font-size: 16px;
-  color: #FFF;
+  color: #122B60;
   padding: 8px 16px;
-  background-color: #122B60;
+  background-color: #E2BF17; 
   border-radius: 6px;
   margin: 14px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button:hover{
-  background: #265DF2;
+  background: #122B60;
+  color: #E2BF17;
 }
 
 .swiper-navBtn{
-  color: #6E93f7;
+  color: #E2BF17;
   transition: color 0.3s ease;
 }
 .swiper-navBtn:hover{
@@ -129,7 +130,7 @@
   left: 0;
 }
 .swiper-pagination-bullet{
-  background-color: #6E93f7;
+  background-color: #122B60;
   opacity: 1;
 }
 .swiper-pagination-bullet-active{
