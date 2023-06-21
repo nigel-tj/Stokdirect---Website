@@ -31,7 +31,7 @@
     integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
     integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
-    </script>
+  </script>
   <!-- Swiper JS -->
   <script src="/public/swiper-bundle.min.js"></script>
   <script src="https://cdn.tailwindcss.com"></script>
@@ -98,8 +98,24 @@
             Order Now
           </a>
         </div>
-        <div>
-          <img src="/assets/img/okubabayo.png" alt="">
+        <div class="flex flex-col">
+          <div class="parallax-slider">
+            <div class="slide active">
+              <img src="/assets/img/banners/okubabayo1.png" alt="Image 1">
+            </div>
+            <div class="slide">
+              <img src="/assets/img/banners/okubabayo2.png" alt="Image 2">
+            </div>
+            <div class="slide">
+              <img src="/assets/img/banners/okubabayo3.png" alt="Image 3">
+            </div>
+            <div class="slide">
+              <img src="/assets/img/banners/okubabayo4.png" alt="Image 4">
+            </div>
+            <div class="slide">
+              <img src="/assets/img/banners/okubabayo5.png" alt="Image 5">
+            </div>
+          </div>
         </div>
 
       </div>
@@ -522,6 +538,20 @@
 
   <footer-component></footer-component>
 
+  <script>
+    const slides = Array.from(document.querySelectorAll('.parallax-slider .slide'));
+    let activeSlide = 0;
+
+    function showSlide(index) {
+        slides.forEach(slide => slide.classList.remove('active'));
+        slides[index].classList.add('active');
+    }
+
+    setInterval(() => {
+        activeSlide = (activeSlide + 1) % slides.length;
+        showSlide(activeSlide);
+    }, 3000);
+</script>
 
   <script>
     var swiper = new Swiper(".slide-content", {
