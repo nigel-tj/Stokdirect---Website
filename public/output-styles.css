@@ -2772,12 +2772,26 @@ textarea.form-control.is-invalid {
 }
 
 @media (min-width: 640px) {
+  .sm\:flex {
+    display: flex;
+  }
+
   .sm\:max-w-xl {
     max-width: 36rem;
   }
 
+  .sm\:flex-col {
+    flex-direction: column;
+  }
+
   .sm\:items-center {
     align-items: center;
+  }
+
+  @media (min-width: 640px) {
+    .sm\:sm\:items-center {
+      align-items: center;
+    }
   }
 
   .sm\:gap-4 {
